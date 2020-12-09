@@ -1,0 +1,1 @@
+../../../ECAutoScrollBanner/ECAutoScrollBanner/YYWebImage/Categories/_YYWebImageSetter.h

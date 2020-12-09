@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "85D708CD50BA20760538F981D889D177D1AEC1DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "85D708CD50BA20760538F981D889D177D1AEC1DF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "367D4970-13FA-4E05-BE58-83A04E6403B7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "85D708CD50BA20760538F981D889D177D1AEC1DF" : "YCHManage-IOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YCHManage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YCHManage\/YCHManage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.16.104.96\/sk\/YCHManage-IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85D708CD50BA20760538F981D889D177D1AEC1DF"
+    }
+  ]
+}

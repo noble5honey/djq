@@ -1,0 +1,57 @@
+//
+//  YCHManage-Prefix.pch
+//  YCHManage
+//
+//  Created by sunny on 2020/6/8.
+//  Copyright © 2020 com.chinaums.ios.chinaumsonline. All rights reserved.
+//
+
+#ifndef YCHManage_Prefix_pch
+#define YCHManage_Prefix_pch
+#ifdef __OBJC__
+
+#define Width_Screen  [UIScreen mainScreen].bounds.size.width
+#define Height_Screen [UIScreen mainScreen].bounds.size.height
+#define CELL_HEIGHT   ((Height_Screen > 667)? 52.f : 44.f)
+#define Authorization    @"Authorization"
+#define LoginName        @"LoginName"
+#define UserName         @"UserName"
+#define Permission       @"Permission"
+#define UserId           @"UserId"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVBase.h>
+#import <AVFoundation/AVFoundation.h>
+#import "AppDelegate.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+#import "UIFont+Additions.h"
+#import "YCHManageDevice.h"
+#import "YCHManage-UI-Constant.h"
+#import "MBProgressHUD.h"
+#import "YCHManageLodingActivity.h"
+#import "YCHManagerToast.h"
+#import "YCHNetBiz.h"
+#import "YCHManageUserCenter.h"
+#import "ZBNetworking.h"
+#import "YCHNavigationController.h"
+#import "UIColor+additions.h"
+#import "UIImage+Additions.h"
+#import "UINavigationBar+Additions.h"
+#import "YCHManageViewControllerManager.h"
+#import "ViewController.h"
+#import "NSString+additions.h"
+#import "UMSTimerManager.h"
+#import "UITextView+Placeholder.h"
+#import "UIViewController+barAndNaviHeight.h"
+
+#import "YCHBasicInformationModel.h"
+#import "YCHOverviewPageModel.h"
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* YCHManage_Prefix_pch */

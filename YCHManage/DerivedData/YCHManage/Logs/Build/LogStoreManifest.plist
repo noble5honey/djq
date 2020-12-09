@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>01972F15-1743-4492-BDAD-FF7BB6D2C713</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>01972F15-1743-4492-BDAD-FF7BB6D2C713.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625394842.30019605</real>
+			<key>timeStoppedRecording</key>
+			<real>625394856.154652</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>01972F15-1743-4492-BDAD-FF7BB6D2C713</string>
+		</dict>
+		<key>255F981A-AA53-4A1D-8D87-7EC1B7F4C529</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>255F981A-AA53-4A1D-8D87-7EC1B7F4C529.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625109186.48515499</real>
+			<key>timeStoppedRecording</key>
+			<real>625109188.22980905</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>255F981A-AA53-4A1D-8D87-7EC1B7F4C529</string>
+		</dict>
+		<key>3FD2EEED-ECB4-42CF-B23D-3BAC4DBB98CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3FD2EEED-ECB4-42CF-B23D-3BAC4DBB98CB.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625108819.78213894</real>
+			<key>timeStoppedRecording</key>
+			<real>625108820.18498302</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>3FD2EEED-ECB4-42CF-B23D-3BAC4DBB98CB</string>
+		</dict>
+		<key>4A12FB77-8859-4AC7-8695-FE4764AA3A04</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4A12FB77-8859-4AC7-8695-FE4764AA3A04.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625109117.16897094</real>
+			<key>timeStoppedRecording</key>
+			<real>625109117.66908503</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>4A12FB77-8859-4AC7-8695-FE4764AA3A04</string>
+		</dict>
+		<key>55EEF787-C408-47C3-A987-2B1FA6134B76</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>55EEF787-C408-47C3-A987-2B1FA6134B76.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625110813.53832996</real>
+			<key>timeStoppedRecording</key>
+			<real>625110816.90779197</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>55EEF787-C408-47C3-A987-2B1FA6134B76</string>
+		</dict>
+		<key>8116AD1B-D41E-4FE7-AFFA-EEABEEC0319D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8116AD1B-D41E-4FE7-AFFA-EEABEEC0319D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625128112.41027498</real>
+			<key>timeStoppedRecording</key>
+			<real>625128117.10334098</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>8116AD1B-D41E-4FE7-AFFA-EEABEEC0319D</string>
+		</dict>
+		<key>8172E514-5EFD-4EDC-AE2A-75D3E6A7BCD0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8172E514-5EFD-4EDC-AE2A-75D3E6A7BCD0.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625126868.11529195</real>
+			<key>timeStoppedRecording</key>
+			<real>625126874.81401706</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>8172E514-5EFD-4EDC-AE2A-75D3E6A7BCD0</string>
+		</dict>
+		<key>AEE54873-A887-472C-8701-C4C99BE07C63</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AEE54873-A887-472C-8701-C4C99BE07C63.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625109151.55539</real>
+			<key>timeStoppedRecording</key>
+			<real>625109152.30295503</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>AEE54873-A887-472C-8701-C4C99BE07C63</string>
+		</dict>
+		<key>B471EAC3-5256-4F4F-8306-5AD1BCBCE62D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B471EAC3-5256-4F4F-8306-5AD1BCBCE62D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625108790.23923004</real>
+			<key>timeStoppedRecording</key>
+			<real>625108790.71189404</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>B471EAC3-5256-4F4F-8306-5AD1BCBCE62D</string>
+		</dict>
+		<key>B543DD52-C744-446A-BC48-D045C3214803</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B543DD52-C744-446A-BC48-D045C3214803.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625126725.14017999</real>
+			<key>timeStoppedRecording</key>
+			<real>625126761.47891903</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>B543DD52-C744-446A-BC48-D045C3214803</string>
+		</dict>
+		<key>C44966C3-A591-42AE-93DC-839FE1E448B2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C44966C3-A591-42AE-93DC-839FE1E448B2.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625108912.71824205</real>
+			<key>timeStoppedRecording</key>
+			<real>625108944.34397495</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>C44966C3-A591-42AE-93DC-839FE1E448B2</string>
+		</dict>
+		<key>D077E034-F9C5-4214-87F9-2C8588229CDF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D077E034-F9C5-4214-87F9-2C8588229CDF.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625110600.51982403</real>
+			<key>timeStoppedRecording</key>
+			<real>625110604.34902</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>D077E034-F9C5-4214-87F9-2C8588229CDF</string>
+		</dict>
+		<key>D238E164-0A3F-43B2-8160-95DC353D03C3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D238E164-0A3F-43B2-8160-95DC353D03C3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>YCHManage project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>YCHManage</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build YCHManage</string>
+			<key>timeStartedRecording</key>
+			<real>625108977.50862801</real>
+			<key>timeStoppedRecording</key>
+			<real>625108977.98342705</real>
+			<key>title</key>
+			<string>Build YCHManage</string>
+			<key>uniqueIdentifier</key>
+			<string>D238E164-0A3F-43B2-8160-95DC353D03C3</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

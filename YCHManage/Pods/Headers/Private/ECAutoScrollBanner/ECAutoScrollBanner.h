@@ -1,0 +1,1 @@
+../../../ECAutoScrollBanner/ECAutoScrollBanner/ECAutoScrollBanner.h

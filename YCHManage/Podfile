@@ -1,0 +1,17 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+#use_frameworks!
+
+
+target 'YCHManage' do
+    #pod 'SDWebImage', '~>3.7.6'
+  pod 'Masonry', '~>1.0.0'
+  pod 'Mantle', '~> 2.1.0'
+  pod 'MBProgressHUD', '~> 0.9.2'
+  pod 'AFNetworking', '~> 4.0'
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'LMJDropdownMenu'
+  pod 'UITextView+Placeholder'
+  pod 'SDWebImage', '~>3.8'
+  pod 'ECAutoScrollBanner'
+end

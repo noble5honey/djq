@@ -1,0 +1,2287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62B2DA9923457A202C037A5B /* libPods-YCHManage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6FC401781776CD79CA196F /* libPods-YCHManage.a */; };
+		A30402F32566387B00662EA4 /* YCHOverviewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A30402F22566387B00662EA4 /* YCHOverviewTableViewCell.m */; };
+		A30402FC2566499D00662EA4 /* YCHOverviewTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A30402FB2566499D00662EA4 /* YCHOverviewTableView.m */; };
+		A30403022566500600662EA4 /* YCHOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A30403012566500600662EA4 /* YCHOverviewViewController.m */; };
+		A304030825665CBF00662EA4 /* YCHEachVaillageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A304030725665CBF00662EA4 /* YCHEachVaillageTableViewCell.m */; };
+		A304031B2567638300662EA4 /* YCHScrollBannerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A304031A2567638300662EA4 /* YCHScrollBannerTableViewCell.m */; };
+		A30403212567886400662EA4 /* YCHScrollBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A30403202567886400662EA4 /* YCHScrollBannerView.m */; };
+		A304032C256B52E100662EA4 /* YCHOverviewPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A304032B256B52E100662EA4 /* YCHOverviewPageModel.m */; };
+		A3040332256B543A00662EA4 /* YCHRecentNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3040331256B543A00662EA4 /* YCHRecentNotificationModel.m */; };
+		A304033B256B801700662EA4 /* YCHEachVillageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A304033A256B801700662EA4 /* YCHEachVillageModel.m */; };
+		A304034A256E22A300662EA4 /* YCHHomePageNaviItemTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3040349256E22A300662EA4 /* YCHHomePageNaviItemTableView.m */; };
+		A32202252540199600B37B4E /* UMSMyHomeUserInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A32202242540199600B37B4E /* UMSMyHomeUserInfoCell.m */; };
+		A322022825401A9D00B37B4E /* YCHMyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A322022725401A9D00B37B4E /* YCHMyTableView.m */; };
+		A322022B25401F6100B37B4E /* YCHLogoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A322022A25401F6100B37B4E /* YCHLogoutTableViewCell.m */; };
+		A322022E254112E300B37B4E /* UIViewController+barAndNaviHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = A322022D254112E300B37B4E /* UIViewController+barAndNaviHeight.m */; };
+		A325ABA42509C6AD00AA85E8 /* YCHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABA32509C6AD00AA85E8 /* YCHTabBarController.m */; };
+		A325ABAA2509D49000AA85E8 /* YCHSendAndReviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABA92509D49000AA85E8 /* YCHSendAndReviceViewController.m */; };
+		A325ABB0250B199700AA85E8 /* YCHMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABAF250B199700AA85E8 /* YCHMyViewController.m */; };
+		A325ABB2250B42B600AA85E8 /* TabBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A325ABB1250B42B600AA85E8 /* TabBar.xcassets */; };
+		A325ABB8250F08B600AA85E8 /* YCHBasicInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABB7250F08B600AA85E8 /* YCHBasicInformationViewController.m */; };
+		A325ABBC250F0F7E00AA85E8 /* YCHBasicInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABBB250F0F7E00AA85E8 /* YCHBasicInformationModel.m */; };
+		A325ABBF250F395800AA85E8 /* YCHBasicInformationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABBE250F395800AA85E8 /* YCHBasicInformationTableViewCell.m */; };
+		A325ABC2250F3F7200AA85E8 /* YCHBasicInformationTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABC1250F3F7200AA85E8 /* YCHBasicInformationTableView.m */; };
+		A325ABCB250F543600AA85E8 /* YCHPictureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABCA250F543600AA85E8 /* YCHPictureTableViewCell.m */; };
+		A325ABCE25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABCD25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.m */; };
+		A325ABD525108C9A00AA85E8 /* YCHCheckRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABD425108C9A00AA85E8 /* YCHCheckRecordViewController.m */; };
+		A325ABD8251096E200AA85E8 /* YCHcheckRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABD7251096E200AA85E8 /* YCHcheckRecordTableViewCell.m */; };
+		A325ABDB2510A3CE00AA85E8 /* YCHCheckRecordTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABDA2510A3CE00AA85E8 /* YCHCheckRecordTableView.m */; };
+		A325ABDE2511ECF200AA85E8 /* YCHExamineDeductItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABDD2511ECF200AA85E8 /* YCHExamineDeductItemViewController.m */; };
+		A325ABE52511EF0700AA85E8 /* YCHExamineDeductItemTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABE42511EF0700AA85E8 /* YCHExamineDeductItemTableView.m */; };
+		A325ABE82511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABE72511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.m */; };
+		A325ABED2514590800AA85E8 /* FilTrateTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABEC2514590800AA85E8 /* FilTrateTableView.m */; };
+		A325ABF025147B6200AA85E8 /* FilTrateDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABEF25147B6200AA85E8 /* FilTrateDateTableViewCell.m */; };
+		A325ABF325149E4900AA85E8 /* FiltrateFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABF225149E4900AA85E8 /* FiltrateFooterView.m */; };
+		A325ABFA25187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABF925187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.m */; };
+		A325ABFD25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABFC25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.m */; };
+		A325AC0025199F8300AA85E8 /* YCHSendAndReciveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325ABFF25199F8300AA85E8 /* YCHSendAndReciveTableViewCell.m */; };
+		A325AC032519CD1400AA85E8 /* YCHAssistExamineTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC022519CD1400AA85E8 /* YCHAssistExamineTableView.m */; };
+		A325AC062519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC052519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.m */; };
+		A325AC09251ADC6100AA85E8 /* YCHResultNotiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC08251ADC6100AA85E8 /* YCHResultNotiTableView.m */; };
+		A325AC0F251AE97A00AA85E8 /* YCHMessageDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC0E251AE97A00AA85E8 /* YCHMessageDetailsViewController.m */; };
+		A325AC12251AEBDD00AA85E8 /* YCHMessageDetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC11251AEBDD00AA85E8 /* YCHMessageDetailsTableView.m */; };
+		A325AC15251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC14251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.m */; };
+		A325AC18251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC17251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.m */; };
+		A325AC22251B1FA500AA85E8 /* YCHAddResultNotiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC21251B1FA500AA85E8 /* YCHAddResultNotiViewController.m */; };
+		A325AC25251B206600AA85E8 /* YCHAddAssistExamineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC24251B206600AA85E8 /* YCHAddAssistExamineViewController.m */; };
+		A325AC28251B20FE00AA85E8 /* YCHAddResultNotiTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC27251B20FE00AA85E8 /* YCHAddResultNotiTableView.m */; };
+		A325AC2B251B217000AA85E8 /* YCHAddAssistExamineTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC2A251B217000AA85E8 /* YCHAddAssistExamineTableView.m */; };
+		A325AC2E251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC2D251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.m */; };
+		A325AC31251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC30251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.m */; };
+		A325AC34251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A325AC33251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.m */; };
+		A327E0A924A9B36F002B7226 /* UMSImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0A824A9B36E002B7226 /* UMSImagePicker.m */; };
+		A327E0AC24A9CBAF002B7226 /* YCHExamineTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0AB24A9CBAF002B7226 /* YCHExamineTableView.m */; };
+		A327E0B024A9CE15002B7226 /* YCHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0AF24A9CE15002B7226 /* YCHBaseTableViewCell.m */; };
+		A327E0B324A9D3BF002B7226 /* YCHExamineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0B224A9D3BF002B7226 /* YCHExamineTableViewCell.m */; };
+		A327E0B924AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0B824AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.m */; };
+		A327E0BC24AAE1AF002B7226 /* YCHDeductScoreCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0BB24AAE1AF002B7226 /* YCHDeductScoreCollectionView.m */; };
+		A327E0BF24AB10FD002B7226 /* YCHDeductScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0BE24AB10FD002B7226 /* YCHDeductScoreViewController.m */; };
+		A327E0C624C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0C524C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.m */; };
+		A327E0C924C58289002B7226 /* YCHReceiveAndDispatchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0C824C58289002B7226 /* YCHReceiveAndDispatchTableView.m */; };
+		A327E0CF24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0CE24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.m */; };
+		A327E0D224C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0D124C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.m */; };
+		A327E0D524C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0D424C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.m */; };
+		A327E0DB24C92F62002B7226 /* YCHRequestAssistCheckTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0DA24C92F62002B7226 /* YCHRequestAssistCheckTableView.m */; };
+		A327E0DE24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0DD24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.m */; };
+		A327E0E124C939DA002B7226 /* YCHRequestAssistCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0E024C939DA002B7226 /* YCHRequestAssistCheckViewController.m */; };
+		A327E0E724C9817C002B7226 /* YCHReceiveDepartmentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0E624C9817C002B7226 /* YCHReceiveDepartmentTableView.m */; };
+		A327E0EA24C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0E924C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.m */; };
+		A327E0EC24C988A5002B7226 /* ReceiceAndDispatch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A327E0EB24C988A5002B7226 /* ReceiceAndDispatch.xcassets */; };
+		A327E0EF24C98FBD002B7226 /* YCHDepartmentSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0EE24C98FBD002B7226 /* YCHDepartmentSelectViewController.m */; };
+		A327E0F524D10FAE002B7226 /* YCHResultDispatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0F424D10FAD002B7226 /* YCHResultDispatchViewController.m */; };
+		A327E0F824D11187002B7226 /* YCHResultDisaptchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0F724D11187002B7226 /* YCHResultDisaptchTableView.m */; };
+		A327E0FB24D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E0FA24D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.m */; };
+		A327E10124D14BAF002B7226 /* YCHDeductItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E10024D14BAF002B7226 /* YCHDeductItemViewController.m */; };
+		A327E10424D14D46002B7226 /* YCHDeductItemTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E10324D14D46002B7226 /* YCHDeductItemTableView.m */; };
+		A327E10724D14E05002B7226 /* YCHDeductItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A327E10624D14E05002B7226 /* YCHDeductItemTableViewCell.m */; };
+		A34241BE24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A34241BD24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.m */; };
+		A34241C624A88C8A00A38F07 /* YCHExamineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34241C524A88C8A00A38F07 /* YCHExamineViewController.m */; };
+		A38EDB40248DDA680075D5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB3F248DDA680075D5F8 /* AppDelegate.m */; };
+		A38EDB43248DDA680075D5F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB42248DDA680075D5F8 /* ViewController.m */; };
+		A38EDB46248DDA680075D5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38EDB44248DDA680075D5F8 /* Main.storyboard */; };
+		A38EDB48248DDA6A0075D5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38EDB47248DDA6A0075D5F8 /* Assets.xcassets */; };
+		A38EDB4B248DDA6A0075D5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A38EDB49248DDA6A0075D5F8 /* LaunchScreen.storyboard */; };
+		A38EDB4E248DDA6A0075D5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB4D248DDA6A0075D5F8 /* main.m */; };
+		A38EDB58248DDA6A0075D5F8 /* YCHManageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB57248DDA6A0075D5F8 /* YCHManageTests.m */; };
+		A38EDB63248DDA6A0075D5F8 /* YCHManageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB62248DDA6A0075D5F8 /* YCHManageUITests.m */; };
+		A38EDB7A248DE4500075D5F8 /* UIFont+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB79248DE4500075D5F8 /* UIFont+Additions.m */; };
+		A38EDB83248DE60C0075D5F8 /* YCHManageDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB82248DE60C0075D5F8 /* YCHManageDevice.m */; };
+		A38EDB8C248E13BB0075D5F8 /* YCHManageLodingActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB8B248E13BB0075D5F8 /* YCHManageLodingActivity.m */; };
+		A38EDB90248E1C0F0075D5F8 /* YCHManagerToast.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB8F248E1C0F0075D5F8 /* YCHManagerToast.m */; };
+		A38EDB97248F2EA00075D5F8 /* ZBNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB96248F2EA00075D5F8 /* ZBNetworking.m */; };
+		A38EDBA1248F318D0075D5F8 /* ZBMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB99248F31890075D5F8 /* ZBMemoryCache.m */; };
+		A38EDBA2248F318D0075D5F8 /* ZBCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB9A248F318A0075D5F8 /* ZBCacheManager.m */; };
+		A38EDBA3248F318D0075D5F8 /* ZBDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB9C248F318B0075D5F8 /* ZBDiskCache.m */; };
+		A38EDBA4248F318D0075D5F8 /* ZBLRUManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDB9D248F318B0075D5F8 /* ZBLRUManager.m */; };
+		A38EDBAF248F58CA0075D5F8 /* YCHManageUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBAE248F58CA0075D5F8 /* YCHManageUserCenter.m */; };
+		A38EDBB6248F6B4F0075D5F8 /* YCHManageViewControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBB5248F6B4F0075D5F8 /* YCHManageViewControllerManager.m */; };
+		A38EDBBB248F6D410075D5F8 /* YCHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBBA248F6D410075D5F8 /* YCHNavigationController.m */; };
+		A38EDBC3248F7D6A0075D5F8 /* UMSDeformationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBC1248F7D6A0075D5F8 /* UMSDeformationButton.m */; };
+		A38EDBC4248F7D6A0075D5F8 /* UMSSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBC2248F7D6A0075D5F8 /* UMSSpinnerView.m */; };
+		A38EDBC724907D300075D5F8 /* YCHLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBC624907D300075D5F8 /* YCHLoginView.m */; };
+		A38EDBC92490803A0075D5F8 /* LoginView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38EDBC82490803A0075D5F8 /* LoginView.xcassets */; };
+		A38EDBCD249082570075D5F8 /* YCHLoginSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBCC249082570075D5F8 /* YCHLoginSegmentedControl.m */; };
+		A38EDBD0249089820075D5F8 /* YCHBaseLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBCF249089820075D5F8 /* YCHBaseLoginView.m */; };
+		A38EDBD624908A6B0075D5F8 /* YCHLoginPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBD524908A6B0075D5F8 /* YCHLoginPasswordView.m */; };
+		A38EDBDA2490AB1B0075D5F8 /* YCHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBD92490AB1B0075D5F8 /* YCHRootViewController.m */; };
+		A38EDBDD2490AB870075D5F8 /* YCHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBDC2490AB870075D5F8 /* YCHLoginViewController.m */; };
+		A38EDBE12490AD900075D5F8 /* UINavigationBar+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBE02490AD900075D5F8 /* UINavigationBar+Additions.m */; };
+		A38EDBE52490AE0F0075D5F8 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBE42490AE0F0075D5F8 /* UIColor+Additions.m */; };
+		A38EDBE92490AFCB0075D5F8 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBE72490AFCB0075D5F8 /* UIImage+Additions.m */; };
+		A38EDBED2490CEF20075D5F8 /* NSString+additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBEC2490CEF20075D5F8 /* NSString+additions.m */; };
+		A38EDBF12491D3610075D5F8 /* UMSGainVerifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBEF2491D3610075D5F8 /* UMSGainVerifyView.m */; };
+		A38EDBF72491D4960075D5F8 /* UMSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBF42491D4950075D5F8 /* UMSTimer.m */; };
+		A38EDBF82491D4960075D5F8 /* UMSTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBF62491D4960075D5F8 /* UMSTimerManager.m */; };
+		A38EDBFC2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBFB2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.m */; };
+		A38EDBFF2491F7E30075D5F8 /* YCHSignUpTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDBFE2491F7E30075D5F8 /* YCHSignUpTableView.m */; };
+		A38EDC032491FEF80075D5F8 /* YCHTableViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC022491FEF80075D5F8 /* YCHTableViewFooterView.m */; };
+		A38EDC05249202300075D5F8 /* common.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38EDC04249202300075D5F8 /* common.xcassets */; };
+		A38EDC08249203600075D5F8 /* YCHSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC07249203600075D5F8 /* YCHSignUpViewController.m */; };
+		A38EDC0F2498993D0075D5F8 /* YCHScoreQueryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC0E2498993D0075D5F8 /* YCHScoreQueryViewController.m */; };
+		A38EDC1224989FEF0075D5F8 /* YCHScoreQueryTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC1124989FEF0075D5F8 /* YCHScoreQueryTableView.m */; };
+		A38EDC152498A1190075D5F8 /* YCHScoreQueryTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC142498A1190075D5F8 /* YCHScoreQueryTopView.m */; };
+		A38EDC182498A60E0075D5F8 /* UMSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC162498A60C0075D5F8 /* UMSSearchBar.m */; };
+		A38EDC1B2499B4B80075D5F8 /* YCHScoreQueryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC1A2499B4B80075D5F8 /* YCHScoreQueryTableViewCell.m */; };
+		A38EDC1F249B3C350075D5F8 /* YCHHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC1E249B3C340075D5F8 /* YCHHomePageViewController.m */; };
+		A38EDC21249C4B7B0075D5F8 /* HomePage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38EDC20249C4B7A0075D5F8 /* HomePage.xcassets */; };
+		A38EDC26249C4CCF0075D5F8 /* YCHHomePageEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC25249C4CCF0075D5F8 /* YCHHomePageEmptyView.m */; };
+		A38EDC29249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC28249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.m */; };
+		A38EDC2C249C652A0075D5F8 /* YCHHomePageTopFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC2B249C652A0075D5F8 /* YCHHomePageTopFilterView.m */; };
+		A38EDC40249CA84E0075D5F8 /* BJDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC3C249CA84B0075D5F8 /* BJDatePickerView.m */; };
+		A38EDC41249CA84E0075D5F8 /* BJDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC3D249CA84C0075D5F8 /* BJDatePicker.m */; };
+		A38EDC4424A090430075D5F8 /* YCHHomeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC4324A090430075D5F8 /* YCHHomeTableView.m */; };
+		A38EDC4824A1F69B0075D5F8 /* YCHHomePageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC4724A1F69B0075D5F8 /* YCHHomePageDetailViewController.m */; };
+		A38EDC4D24A205200075D5F8 /* YCHHomePageDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC4C24A205200075D5F8 /* YCHHomePageDetailTableViewCell.m */; };
+		A38EDC5024A2E1E30075D5F8 /* YCHHomePageDetailTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A38EDC4F24A2E1E30075D5F8 /* YCHHomePageDetailTableView.m */; };
+		A39EC46F25202A80003D5BA0 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = A39EC46E25202A80003D5BA0 /* NSString+MD5.m */; };
+		A39EC4722521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39EC4712521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.m */; };
+		A39EC4752521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39EC4742521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.m */; };
+		A39EC4782522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39EC4772522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.m */; };
+		A39EC47B2522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39EC47A2522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A38EDB54248DDA6A0075D5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38EDB33248DDA680075D5F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38EDB3A248DDA680075D5F8;
+			remoteInfo = YCHManage;
+		};
+		A38EDB5F248DDA6A0075D5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38EDB33248DDA680075D5F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38EDB3A248DDA680075D5F8;
+			remoteInfo = YCHManage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F305BB4581C120662FBAE8 /* Pods-YCHManage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCHManage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCHManage/Pods-YCHManage.debug.xcconfig"; sourceTree = "<group>"; };
+		79871A00BF0424A0DD87A0C7 /* Pods-YCHManage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCHManage.release.xcconfig"; path = "Pods/Target Support Files/Pods-YCHManage/Pods-YCHManage.release.xcconfig"; sourceTree = "<group>"; };
+		A30402F12566387B00662EA4 /* YCHOverviewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHOverviewTableViewCell.h; sourceTree = "<group>"; };
+		A30402F22566387B00662EA4 /* YCHOverviewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHOverviewTableViewCell.m; sourceTree = "<group>"; };
+		A30402FA2566499D00662EA4 /* YCHOverviewTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHOverviewTableView.h; sourceTree = "<group>"; };
+		A30402FB2566499D00662EA4 /* YCHOverviewTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHOverviewTableView.m; sourceTree = "<group>"; };
+		A30403002566500600662EA4 /* YCHOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHOverviewViewController.h; sourceTree = "<group>"; };
+		A30403012566500600662EA4 /* YCHOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHOverviewViewController.m; sourceTree = "<group>"; };
+		A304030625665CBF00662EA4 /* YCHEachVaillageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHEachVaillageTableViewCell.h; sourceTree = "<group>"; };
+		A304030725665CBF00662EA4 /* YCHEachVaillageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHEachVaillageTableViewCell.m; sourceTree = "<group>"; };
+		A30403192567638300662EA4 /* YCHScrollBannerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHScrollBannerTableViewCell.h; sourceTree = "<group>"; };
+		A304031A2567638300662EA4 /* YCHScrollBannerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHScrollBannerTableViewCell.m; sourceTree = "<group>"; };
+		A304031F2567886400662EA4 /* YCHScrollBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHScrollBannerView.h; sourceTree = "<group>"; };
+		A30403202567886400662EA4 /* YCHScrollBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHScrollBannerView.m; sourceTree = "<group>"; };
+		A304032A256B52E100662EA4 /* YCHOverviewPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHOverviewPageModel.h; sourceTree = "<group>"; };
+		A304032B256B52E100662EA4 /* YCHOverviewPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHOverviewPageModel.m; sourceTree = "<group>"; };
+		A3040330256B543A00662EA4 /* YCHRecentNotificationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHRecentNotificationModel.h; sourceTree = "<group>"; };
+		A3040331256B543A00662EA4 /* YCHRecentNotificationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHRecentNotificationModel.m; sourceTree = "<group>"; };
+		A3040339256B801700662EA4 /* YCHEachVillageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHEachVillageModel.h; sourceTree = "<group>"; };
+		A304033A256B801700662EA4 /* YCHEachVillageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHEachVillageModel.m; sourceTree = "<group>"; };
+		A3040348256E22A300662EA4 /* YCHHomePageNaviItemTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageNaviItemTableView.h; sourceTree = "<group>"; };
+		A3040349256E22A300662EA4 /* YCHHomePageNaviItemTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageNaviItemTableView.m; sourceTree = "<group>"; };
+		A32202232540199600B37B4E /* UMSMyHomeUserInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSMyHomeUserInfoCell.h; sourceTree = "<group>"; };
+		A32202242540199600B37B4E /* UMSMyHomeUserInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSMyHomeUserInfoCell.m; sourceTree = "<group>"; };
+		A322022625401A9D00B37B4E /* YCHMyTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHMyTableView.h; sourceTree = "<group>"; };
+		A322022725401A9D00B37B4E /* YCHMyTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHMyTableView.m; sourceTree = "<group>"; };
+		A322022925401F6100B37B4E /* YCHLogoutTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHLogoutTableViewCell.h; sourceTree = "<group>"; };
+		A322022A25401F6100B37B4E /* YCHLogoutTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHLogoutTableViewCell.m; sourceTree = "<group>"; };
+		A322022C254112E300B37B4E /* UIViewController+barAndNaviHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+barAndNaviHeight.h"; sourceTree = "<group>"; };
+		A322022D254112E300B37B4E /* UIViewController+barAndNaviHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+barAndNaviHeight.m"; sourceTree = "<group>"; };
+		A325ABA22509C6AD00AA85E8 /* YCHTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHTabBarController.h; sourceTree = "<group>"; };
+		A325ABA32509C6AD00AA85E8 /* YCHTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHTabBarController.m; sourceTree = "<group>"; };
+		A325ABA82509D49000AA85E8 /* YCHSendAndReviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHSendAndReviceViewController.h; sourceTree = "<group>"; };
+		A325ABA92509D49000AA85E8 /* YCHSendAndReviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHSendAndReviceViewController.m; sourceTree = "<group>"; };
+		A325ABAE250B199700AA85E8 /* YCHMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHMyViewController.h; sourceTree = "<group>"; };
+		A325ABAF250B199700AA85E8 /* YCHMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHMyViewController.m; sourceTree = "<group>"; };
+		A325ABB1250B42B600AA85E8 /* TabBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabBar.xcassets; sourceTree = "<group>"; };
+		A325ABB6250F08B600AA85E8 /* YCHBasicInformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBasicInformationViewController.h; sourceTree = "<group>"; };
+		A325ABB7250F08B600AA85E8 /* YCHBasicInformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBasicInformationViewController.m; sourceTree = "<group>"; };
+		A325ABBA250F0F7D00AA85E8 /* YCHBasicInformationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBasicInformationModel.h; sourceTree = "<group>"; };
+		A325ABBB250F0F7E00AA85E8 /* YCHBasicInformationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBasicInformationModel.m; sourceTree = "<group>"; };
+		A325ABBD250F395800AA85E8 /* YCHBasicInformationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBasicInformationTableViewCell.h; sourceTree = "<group>"; };
+		A325ABBE250F395800AA85E8 /* YCHBasicInformationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBasicInformationTableViewCell.m; sourceTree = "<group>"; };
+		A325ABC0250F3F7200AA85E8 /* YCHBasicInformationTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBasicInformationTableView.h; sourceTree = "<group>"; };
+		A325ABC1250F3F7200AA85E8 /* YCHBasicInformationTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBasicInformationTableView.m; sourceTree = "<group>"; };
+		A325ABC9250F543600AA85E8 /* YCHPictureTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHPictureTableViewCell.h; sourceTree = "<group>"; };
+		A325ABCA250F543600AA85E8 /* YCHPictureTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHPictureTableViewCell.m; sourceTree = "<group>"; };
+		A325ABCC25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBasicInfoScalePictureView.h; sourceTree = "<group>"; };
+		A325ABCD25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBasicInfoScalePictureView.m; sourceTree = "<group>"; };
+		A325ABD325108C9A00AA85E8 /* YCHCheckRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHCheckRecordViewController.h; sourceTree = "<group>"; };
+		A325ABD425108C9A00AA85E8 /* YCHCheckRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHCheckRecordViewController.m; sourceTree = "<group>"; };
+		A325ABD6251096E200AA85E8 /* YCHcheckRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHcheckRecordTableViewCell.h; sourceTree = "<group>"; };
+		A325ABD7251096E200AA85E8 /* YCHcheckRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHcheckRecordTableViewCell.m; sourceTree = "<group>"; };
+		A325ABD92510A3CE00AA85E8 /* YCHCheckRecordTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHCheckRecordTableView.h; sourceTree = "<group>"; };
+		A325ABDA2510A3CE00AA85E8 /* YCHCheckRecordTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHCheckRecordTableView.m; sourceTree = "<group>"; };
+		A325ABDC2511ECF200AA85E8 /* YCHExamineDeductItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHExamineDeductItemViewController.h; sourceTree = "<group>"; };
+		A325ABDD2511ECF200AA85E8 /* YCHExamineDeductItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHExamineDeductItemViewController.m; sourceTree = "<group>"; };
+		A325ABE32511EF0700AA85E8 /* YCHExamineDeductItemTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHExamineDeductItemTableView.h; sourceTree = "<group>"; };
+		A325ABE42511EF0700AA85E8 /* YCHExamineDeductItemTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHExamineDeductItemTableView.m; sourceTree = "<group>"; };
+		A325ABE62511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHExamineDeductItemTableViewCell.h; sourceTree = "<group>"; };
+		A325ABE72511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHExamineDeductItemTableViewCell.m; sourceTree = "<group>"; };
+		A325ABEB2514590800AA85E8 /* FilTrateTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilTrateTableView.h; sourceTree = "<group>"; };
+		A325ABEC2514590800AA85E8 /* FilTrateTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilTrateTableView.m; sourceTree = "<group>"; };
+		A325ABEE25147B6200AA85E8 /* FilTrateDateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilTrateDateTableViewCell.h; sourceTree = "<group>"; };
+		A325ABEF25147B6200AA85E8 /* FilTrateDateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilTrateDateTableViewCell.m; sourceTree = "<group>"; };
+		A325ABF125149E4900AA85E8 /* FiltrateFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiltrateFooterView.h; sourceTree = "<group>"; };
+		A325ABF225149E4900AA85E8 /* FiltrateFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiltrateFooterView.m; sourceTree = "<group>"; };
+		A325ABF825187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHCorrectAndDetailsViewController.h; sourceTree = "<group>"; };
+		A325ABF925187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHCorrectAndDetailsViewController.m; sourceTree = "<group>"; };
+		A325ABFB25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHCorrectAndDetailsTableVIew.h; sourceTree = "<group>"; };
+		A325ABFC25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHCorrectAndDetailsTableVIew.m; sourceTree = "<group>"; };
+		A325ABFE25199F8300AA85E8 /* YCHSendAndReciveTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHSendAndReciveTableViewCell.h; sourceTree = "<group>"; };
+		A325ABFF25199F8300AA85E8 /* YCHSendAndReciveTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHSendAndReciveTableViewCell.m; sourceTree = "<group>"; };
+		A325AC012519CD1400AA85E8 /* YCHAssistExamineTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAssistExamineTableView.h; sourceTree = "<group>"; };
+		A325AC022519CD1400AA85E8 /* YCHAssistExamineTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAssistExamineTableView.m; sourceTree = "<group>"; };
+		A325AC042519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAssistExamineFiltrateView.h; sourceTree = "<group>"; };
+		A325AC052519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAssistExamineFiltrateView.m; sourceTree = "<group>"; };
+		A325AC07251ADC6100AA85E8 /* YCHResultNotiTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHResultNotiTableView.h; sourceTree = "<group>"; };
+		A325AC08251ADC6100AA85E8 /* YCHResultNotiTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHResultNotiTableView.m; sourceTree = "<group>"; };
+		A325AC0D251AE97A00AA85E8 /* YCHMessageDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHMessageDetailsViewController.h; sourceTree = "<group>"; };
+		A325AC0E251AE97A00AA85E8 /* YCHMessageDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHMessageDetailsViewController.m; sourceTree = "<group>"; };
+		A325AC10251AEBDD00AA85E8 /* YCHMessageDetailsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHMessageDetailsTableView.h; sourceTree = "<group>"; };
+		A325AC11251AEBDD00AA85E8 /* YCHMessageDetailsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHMessageDetailsTableView.m; sourceTree = "<group>"; };
+		A325AC13251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHMessageDetailsKeyValueTableViewCell.h; sourceTree = "<group>"; };
+		A325AC14251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHMessageDetailsKeyValueTableViewCell.m; sourceTree = "<group>"; };
+		A325AC16251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHMessageDetailsContentTableViewCell.h; sourceTree = "<group>"; };
+		A325AC17251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHMessageDetailsContentTableViewCell.m; sourceTree = "<group>"; };
+		A325AC20251B1FA500AA85E8 /* YCHAddResultNotiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddResultNotiViewController.h; sourceTree = "<group>"; };
+		A325AC21251B1FA500AA85E8 /* YCHAddResultNotiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddResultNotiViewController.m; sourceTree = "<group>"; };
+		A325AC23251B206600AA85E8 /* YCHAddAssistExamineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddAssistExamineViewController.h; sourceTree = "<group>"; };
+		A325AC24251B206600AA85E8 /* YCHAddAssistExamineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddAssistExamineViewController.m; sourceTree = "<group>"; };
+		A325AC26251B20FE00AA85E8 /* YCHAddResultNotiTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddResultNotiTableView.h; sourceTree = "<group>"; };
+		A325AC27251B20FE00AA85E8 /* YCHAddResultNotiTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddResultNotiTableView.m; sourceTree = "<group>"; };
+		A325AC29251B217000AA85E8 /* YCHAddAssistExamineTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddAssistExamineTableView.h; sourceTree = "<group>"; };
+		A325AC2A251B217000AA85E8 /* YCHAddAssistExamineTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddAssistExamineTableView.m; sourceTree = "<group>"; };
+		A325AC2C251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddResultNotiDateTableViewCell.h; sourceTree = "<group>"; };
+		A325AC2D251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddResultNotiDateTableViewCell.m; sourceTree = "<group>"; };
+		A325AC2F251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddResultNotiTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		A325AC30251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddResultNotiTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		A325AC32251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAddResultNotiTextViewTableViewCell.h; sourceTree = "<group>"; };
+		A325AC33251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAddResultNotiTextViewTableViewCell.m; sourceTree = "<group>"; };
+		A325AC38251D82D300AA85E8 /* YCHNetBiz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHNetBiz.h; sourceTree = "<group>"; };
+		A327E0A724A9B36E002B7226 /* UMSImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSImagePicker.h; sourceTree = "<group>"; };
+		A327E0A824A9B36E002B7226 /* UMSImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSImagePicker.m; sourceTree = "<group>"; };
+		A327E0AA24A9CBAF002B7226 /* YCHExamineTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHExamineTableView.h; sourceTree = "<group>"; };
+		A327E0AB24A9CBAF002B7226 /* YCHExamineTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHExamineTableView.m; sourceTree = "<group>"; };
+		A327E0AE24A9CE15002B7226 /* YCHBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBaseTableViewCell.h; sourceTree = "<group>"; };
+		A327E0AF24A9CE15002B7226 /* YCHBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBaseTableViewCell.m; sourceTree = "<group>"; };
+		A327E0B124A9D3BF002B7226 /* YCHExamineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHExamineTableViewCell.h; sourceTree = "<group>"; };
+		A327E0B224A9D3BF002B7226 /* YCHExamineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHExamineTableViewCell.m; sourceTree = "<group>"; };
+		A327E0B724AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDeductScoreCollectionViewCell.h; sourceTree = "<group>"; };
+		A327E0B824AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDeductScoreCollectionViewCell.m; sourceTree = "<group>"; };
+		A327E0BA24AAE1AF002B7226 /* YCHDeductScoreCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDeductScoreCollectionView.h; sourceTree = "<group>"; };
+		A327E0BB24AAE1AF002B7226 /* YCHDeductScoreCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDeductScoreCollectionView.m; sourceTree = "<group>"; };
+		A327E0BD24AB10FD002B7226 /* YCHDeductScoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDeductScoreViewController.h; sourceTree = "<group>"; };
+		A327E0BE24AB10FD002B7226 /* YCHDeductScoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDeductScoreViewController.m; sourceTree = "<group>"; };
+		A327E0C424C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveAndDispatchTableViewCell.h; sourceTree = "<group>"; };
+		A327E0C524C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveAndDispatchTableViewCell.m; sourceTree = "<group>"; };
+		A327E0C724C58289002B7226 /* YCHReceiveAndDispatchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveAndDispatchTableView.h; sourceTree = "<group>"; };
+		A327E0C824C58289002B7226 /* YCHReceiveAndDispatchTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveAndDispatchTableView.m; sourceTree = "<group>"; };
+		A327E0CD24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveAndDispatchDetailsTableView.h; sourceTree = "<group>"; };
+		A327E0CE24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveAndDispatchDetailsTableView.m; sourceTree = "<group>"; };
+		A327E0D024C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveAndDispatchDetailsViewController.h; sourceTree = "<group>"; };
+		A327E0D124C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveAndDispatchDetailsViewController.m; sourceTree = "<group>"; };
+		A327E0D324C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveDetailsTextViewTableViewCell.h; sourceTree = "<group>"; };
+		A327E0D424C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveDetailsTextViewTableViewCell.m; sourceTree = "<group>"; };
+		A327E0D924C92F62002B7226 /* YCHRequestAssistCheckTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHRequestAssistCheckTableView.h; sourceTree = "<group>"; };
+		A327E0DA24C92F62002B7226 /* YCHRequestAssistCheckTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHRequestAssistCheckTableView.m; sourceTree = "<group>"; };
+		A327E0DC24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveAndDispatchTextFieldCell.h; sourceTree = "<group>"; };
+		A327E0DD24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveAndDispatchTextFieldCell.m; sourceTree = "<group>"; };
+		A327E0DF24C939DA002B7226 /* YCHRequestAssistCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHRequestAssistCheckViewController.h; sourceTree = "<group>"; };
+		A327E0E024C939DA002B7226 /* YCHRequestAssistCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHRequestAssistCheckViewController.m; sourceTree = "<group>"; };
+		A327E0E524C9817C002B7226 /* YCHReceiveDepartmentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveDepartmentTableView.h; sourceTree = "<group>"; };
+		A327E0E624C9817C002B7226 /* YCHReceiveDepartmentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveDepartmentTableView.m; sourceTree = "<group>"; };
+		A327E0E824C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHReceiveDepartmentTableViewCell.h; sourceTree = "<group>"; };
+		A327E0E924C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHReceiveDepartmentTableViewCell.m; sourceTree = "<group>"; };
+		A327E0EB24C988A5002B7226 /* ReceiceAndDispatch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ReceiceAndDispatch.xcassets; sourceTree = "<group>"; };
+		A327E0ED24C98FBD002B7226 /* YCHDepartmentSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDepartmentSelectViewController.h; sourceTree = "<group>"; };
+		A327E0EE24C98FBD002B7226 /* YCHDepartmentSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDepartmentSelectViewController.m; sourceTree = "<group>"; };
+		A327E0F324D10FAD002B7226 /* YCHResultDispatchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHResultDispatchViewController.h; sourceTree = "<group>"; };
+		A327E0F424D10FAD002B7226 /* YCHResultDispatchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHResultDispatchViewController.m; sourceTree = "<group>"; };
+		A327E0F624D11187002B7226 /* YCHResultDisaptchTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHResultDisaptchTableView.h; sourceTree = "<group>"; };
+		A327E0F724D11187002B7226 /* YCHResultDisaptchTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHResultDisaptchTableView.m; sourceTree = "<group>"; };
+		A327E0F924D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDataRangeSelectTableViewCell.h; sourceTree = "<group>"; };
+		A327E0FA24D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDataRangeSelectTableViewCell.m; sourceTree = "<group>"; };
+		A327E0FF24D14BAF002B7226 /* YCHDeductItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDeductItemViewController.h; sourceTree = "<group>"; };
+		A327E10024D14BAF002B7226 /* YCHDeductItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDeductItemViewController.m; sourceTree = "<group>"; };
+		A327E10224D14D46002B7226 /* YCHDeductItemTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDeductItemTableView.h; sourceTree = "<group>"; };
+		A327E10324D14D46002B7226 /* YCHDeductItemTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDeductItemTableView.m; sourceTree = "<group>"; };
+		A327E10524D14E05002B7226 /* YCHDeductItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHDeductItemTableViewCell.h; sourceTree = "<group>"; };
+		A327E10624D14E05002B7226 /* YCHDeductItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHDeductItemTableViewCell.m; sourceTree = "<group>"; };
+		A34241BC24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageExamineTableViewCell.h; sourceTree = "<group>"; };
+		A34241BD24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageExamineTableViewCell.m; sourceTree = "<group>"; };
+		A34241C424A88C8A00A38F07 /* YCHExamineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHExamineViewController.h; sourceTree = "<group>"; };
+		A34241C524A88C8A00A38F07 /* YCHExamineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHExamineViewController.m; sourceTree = "<group>"; };
+		A38EDB3B248DDA680075D5F8 /* YCHManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCHManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38EDB3E248DDA680075D5F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A38EDB3F248DDA680075D5F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A38EDB41248DDA680075D5F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A38EDB42248DDA680075D5F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A38EDB45248DDA680075D5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A38EDB47248DDA6A0075D5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A38EDB4A248DDA6A0075D5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A38EDB4C248DDA6A0075D5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38EDB4D248DDA6A0075D5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38EDB53248DDA6A0075D5F8 /* YCHManageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCHManageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38EDB57248DDA6A0075D5F8 /* YCHManageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManageTests.m; sourceTree = "<group>"; };
+		A38EDB59248DDA6A0075D5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38EDB5E248DDA6A0075D5F8 /* YCHManageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCHManageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38EDB62248DDA6A0075D5F8 /* YCHManageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManageUITests.m; sourceTree = "<group>"; };
+		A38EDB64248DDA6A0075D5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A38EDB72248DE2910075D5F8 /* YCHManage-UI-Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YCHManage-UI-Constant.h"; sourceTree = "<group>"; };
+		A38EDB78248DE4500075D5F8 /* UIFont+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Additions.h"; sourceTree = "<group>"; };
+		A38EDB79248DE4500075D5F8 /* UIFont+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Additions.m"; sourceTree = "<group>"; };
+		A38EDB81248DE60C0075D5F8 /* YCHManageDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHManageDevice.h; sourceTree = "<group>"; };
+		A38EDB82248DE60C0075D5F8 /* YCHManageDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManageDevice.m; sourceTree = "<group>"; };
+		A38EDB85248DE8380075D5F8 /* YCHManage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YCHManage-Prefix.pch"; sourceTree = "<group>"; };
+		A38EDB8A248E13BB0075D5F8 /* YCHManageLodingActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHManageLodingActivity.h; sourceTree = "<group>"; };
+		A38EDB8B248E13BB0075D5F8 /* YCHManageLodingActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManageLodingActivity.m; sourceTree = "<group>"; };
+		A38EDB8E248E1C0F0075D5F8 /* YCHManagerToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHManagerToast.h; sourceTree = "<group>"; };
+		A38EDB8F248E1C0F0075D5F8 /* YCHManagerToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManagerToast.m; sourceTree = "<group>"; };
+		A38EDB95248F2EA00075D5F8 /* ZBNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBNetworking.h; sourceTree = "<group>"; };
+		A38EDB96248F2EA00075D5F8 /* ZBNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNetworking.m; sourceTree = "<group>"; };
+		A38EDB99248F31890075D5F8 /* ZBMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBMemoryCache.m; sourceTree = "<group>"; };
+		A38EDB9A248F318A0075D5F8 /* ZBCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCacheManager.m; sourceTree = "<group>"; };
+		A38EDB9B248F318A0075D5F8 /* ZBLRUManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBLRUManager.h; sourceTree = "<group>"; };
+		A38EDB9C248F318B0075D5F8 /* ZBDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBDiskCache.m; sourceTree = "<group>"; };
+		A38EDB9D248F318B0075D5F8 /* ZBLRUManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBLRUManager.m; sourceTree = "<group>"; };
+		A38EDB9E248F318C0075D5F8 /* ZBDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBDiskCache.h; sourceTree = "<group>"; };
+		A38EDB9F248F318C0075D5F8 /* ZBCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCacheManager.h; sourceTree = "<group>"; };
+		A38EDBA0248F318D0075D5F8 /* ZBMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBMemoryCache.h; sourceTree = "<group>"; };
+		A38EDBAD248F58CA0075D5F8 /* YCHManageUserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHManageUserCenter.h; sourceTree = "<group>"; };
+		A38EDBAE248F58CA0075D5F8 /* YCHManageUserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManageUserCenter.m; sourceTree = "<group>"; };
+		A38EDBB4248F6B4F0075D5F8 /* YCHManageViewControllerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHManageViewControllerManager.h; sourceTree = "<group>"; };
+		A38EDBB5248F6B4F0075D5F8 /* YCHManageViewControllerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHManageViewControllerManager.m; sourceTree = "<group>"; };
+		A38EDBB9248F6D410075D5F8 /* YCHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHNavigationController.h; sourceTree = "<group>"; };
+		A38EDBBA248F6D410075D5F8 /* YCHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHNavigationController.m; sourceTree = "<group>"; };
+		A38EDBBF248F7D690075D5F8 /* UMSDeformationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSDeformationButton.h; sourceTree = "<group>"; };
+		A38EDBC0248F7D6A0075D5F8 /* UMSSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSSpinnerView.h; sourceTree = "<group>"; };
+		A38EDBC1248F7D6A0075D5F8 /* UMSDeformationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSDeformationButton.m; sourceTree = "<group>"; };
+		A38EDBC2248F7D6A0075D5F8 /* UMSSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSSpinnerView.m; sourceTree = "<group>"; };
+		A38EDBC524907D300075D5F8 /* YCHLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHLoginView.h; sourceTree = "<group>"; };
+		A38EDBC624907D300075D5F8 /* YCHLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHLoginView.m; sourceTree = "<group>"; };
+		A38EDBC82490803A0075D5F8 /* LoginView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LoginView.xcassets; sourceTree = "<group>"; };
+		A38EDBCB249082570075D5F8 /* YCHLoginSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCHLoginSegmentedControl.h; sourceTree = "<group>"; };
+		A38EDBCC249082570075D5F8 /* YCHLoginSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCHLoginSegmentedControl.m; sourceTree = "<group>"; };
+		A38EDBCE249089820075D5F8 /* YCHBaseLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHBaseLoginView.h; sourceTree = "<group>"; };
+		A38EDBCF249089820075D5F8 /* YCHBaseLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHBaseLoginView.m; sourceTree = "<group>"; };
+		A38EDBD424908A6B0075D5F8 /* YCHLoginPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHLoginPasswordView.h; sourceTree = "<group>"; };
+		A38EDBD524908A6B0075D5F8 /* YCHLoginPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHLoginPasswordView.m; sourceTree = "<group>"; };
+		A38EDBD82490AB1B0075D5F8 /* YCHRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHRootViewController.h; sourceTree = "<group>"; };
+		A38EDBD92490AB1B0075D5F8 /* YCHRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHRootViewController.m; sourceTree = "<group>"; };
+		A38EDBDB2490AB870075D5F8 /* YCHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHLoginViewController.h; sourceTree = "<group>"; };
+		A38EDBDC2490AB870075D5F8 /* YCHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHLoginViewController.m; sourceTree = "<group>"; };
+		A38EDBDF2490AD900075D5F8 /* UINavigationBar+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Additions.h"; sourceTree = "<group>"; };
+		A38EDBE02490AD900075D5F8 /* UINavigationBar+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Additions.m"; sourceTree = "<group>"; };
+		A38EDBE32490AE0E0075D5F8 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		A38EDBE42490AE0F0075D5F8 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		A38EDBE72490AFCB0075D5F8 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		A38EDBE82490AFCB0075D5F8 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		A38EDBEB2490CEF20075D5F8 /* NSString+additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+additions.h"; sourceTree = "<group>"; };
+		A38EDBEC2490CEF20075D5F8 /* NSString+additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+additions.m"; sourceTree = "<group>"; };
+		A38EDBEF2491D3610075D5F8 /* UMSGainVerifyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSGainVerifyView.m; sourceTree = "<group>"; };
+		A38EDBF02491D3610075D5F8 /* UMSGainVerifyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSGainVerifyView.h; sourceTree = "<group>"; };
+		A38EDBF32491D4950075D5F8 /* UMSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSTimer.h; sourceTree = "<group>"; };
+		A38EDBF42491D4950075D5F8 /* UMSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSTimer.m; sourceTree = "<group>"; };
+		A38EDBF52491D4960075D5F8 /* UMSTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSTimerManager.h; sourceTree = "<group>"; };
+		A38EDBF62491D4960075D5F8 /* UMSTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSTimerManager.m; sourceTree = "<group>"; };
+		A38EDBFA2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCKeyValueTableViewCell.h; sourceTree = "<group>"; };
+		A38EDBFB2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCKeyValueTableViewCell.m; sourceTree = "<group>"; };
+		A38EDBFD2491F7E30075D5F8 /* YCHSignUpTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHSignUpTableView.h; sourceTree = "<group>"; };
+		A38EDBFE2491F7E30075D5F8 /* YCHSignUpTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHSignUpTableView.m; sourceTree = "<group>"; };
+		A38EDC012491FEF80075D5F8 /* YCHTableViewFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHTableViewFooterView.h; sourceTree = "<group>"; };
+		A38EDC022491FEF80075D5F8 /* YCHTableViewFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHTableViewFooterView.m; sourceTree = "<group>"; };
+		A38EDC04249202300075D5F8 /* common.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = common.xcassets; sourceTree = "<group>"; };
+		A38EDC06249203600075D5F8 /* YCHSignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHSignUpViewController.h; sourceTree = "<group>"; };
+		A38EDC07249203600075D5F8 /* YCHSignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHSignUpViewController.m; sourceTree = "<group>"; };
+		A38EDC0D2498993D0075D5F8 /* YCHScoreQueryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHScoreQueryViewController.h; sourceTree = "<group>"; };
+		A38EDC0E2498993D0075D5F8 /* YCHScoreQueryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHScoreQueryViewController.m; sourceTree = "<group>"; };
+		A38EDC1024989FEF0075D5F8 /* YCHScoreQueryTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHScoreQueryTableView.h; sourceTree = "<group>"; };
+		A38EDC1124989FEF0075D5F8 /* YCHScoreQueryTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHScoreQueryTableView.m; sourceTree = "<group>"; };
+		A38EDC132498A1190075D5F8 /* YCHScoreQueryTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHScoreQueryTopView.h; sourceTree = "<group>"; };
+		A38EDC142498A1190075D5F8 /* YCHScoreQueryTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHScoreQueryTopView.m; sourceTree = "<group>"; };
+		A38EDC162498A60C0075D5F8 /* UMSSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSSearchBar.m; sourceTree = "<group>"; };
+		A38EDC172498A60E0075D5F8 /* UMSSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSSearchBar.h; sourceTree = "<group>"; };
+		A38EDC192499B4B80075D5F8 /* YCHScoreQueryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHScoreQueryTableViewCell.h; sourceTree = "<group>"; };
+		A38EDC1A2499B4B80075D5F8 /* YCHScoreQueryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHScoreQueryTableViewCell.m; sourceTree = "<group>"; };
+		A38EDC1D249B3C340075D5F8 /* YCHHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageViewController.h; sourceTree = "<group>"; };
+		A38EDC1E249B3C340075D5F8 /* YCHHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageViewController.m; sourceTree = "<group>"; };
+		A38EDC20249C4B7A0075D5F8 /* HomePage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = HomePage.xcassets; sourceTree = "<group>"; };
+		A38EDC24249C4CCF0075D5F8 /* YCHHomePageEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageEmptyView.h; sourceTree = "<group>"; };
+		A38EDC25249C4CCF0075D5F8 /* YCHHomePageEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageEmptyView.m; sourceTree = "<group>"; };
+		A38EDC27249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageManagerTableViewCell.h; sourceTree = "<group>"; };
+		A38EDC28249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageManagerTableViewCell.m; sourceTree = "<group>"; };
+		A38EDC2A249C652A0075D5F8 /* YCHHomePageTopFilterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageTopFilterView.h; sourceTree = "<group>"; };
+		A38EDC2B249C652A0075D5F8 /* YCHHomePageTopFilterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageTopFilterView.m; sourceTree = "<group>"; };
+		A38EDC3C249CA84B0075D5F8 /* BJDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDatePickerView.m; sourceTree = "<group>"; };
+		A38EDC3D249CA84C0075D5F8 /* BJDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDatePicker.m; sourceTree = "<group>"; };
+		A38EDC3E249CA84D0075D5F8 /* BJDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDatePicker.h; sourceTree = "<group>"; };
+		A38EDC3F249CA84E0075D5F8 /* BJDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDatePickerView.h; sourceTree = "<group>"; };
+		A38EDC4224A090430075D5F8 /* YCHHomeTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomeTableView.h; sourceTree = "<group>"; };
+		A38EDC4324A090430075D5F8 /* YCHHomeTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomeTableView.m; sourceTree = "<group>"; };
+		A38EDC4624A1F69B0075D5F8 /* YCHHomePageDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageDetailViewController.h; sourceTree = "<group>"; };
+		A38EDC4724A1F69B0075D5F8 /* YCHHomePageDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageDetailViewController.m; sourceTree = "<group>"; };
+		A38EDC4B24A205200075D5F8 /* YCHHomePageDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageDetailTableViewCell.h; sourceTree = "<group>"; };
+		A38EDC4C24A205200075D5F8 /* YCHHomePageDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageDetailTableViewCell.m; sourceTree = "<group>"; };
+		A38EDC4E24A2E1E30075D5F8 /* YCHHomePageDetailTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHHomePageDetailTableView.h; sourceTree = "<group>"; };
+		A38EDC4F24A2E1E30075D5F8 /* YCHHomePageDetailTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHHomePageDetailTableView.m; sourceTree = "<group>"; };
+		A39EC46D25202A80003D5BA0 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		A39EC46E25202A80003D5BA0 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		A39EC4702521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHCheckRecordDetailsTableView.h; sourceTree = "<group>"; };
+		A39EC4712521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHCheckRecordDetailsTableView.m; sourceTree = "<group>"; };
+		A39EC4732521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHCheckRecordDetailsViewController.h; sourceTree = "<group>"; };
+		A39EC4742521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHCheckRecordDetailsViewController.m; sourceTree = "<group>"; };
+		A39EC4762522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAssistExamineDetailsTableView.h; sourceTree = "<group>"; };
+		A39EC4772522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAssistExamineDetailsTableView.m; sourceTree = "<group>"; };
+		A39EC4792522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCHAssistExamineDetailsViewController.h; sourceTree = "<group>"; };
+		A39EC47A2522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCHAssistExamineDetailsViewController.m; sourceTree = "<group>"; };
+		DC6FC401781776CD79CA196F /* libPods-YCHManage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YCHManage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38EDB38248DDA680075D5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B2DA9923457A202C037A5B /* libPods-YCHManage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38EDB50248DDA6A0075D5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38EDB5B248DDA6A0075D5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		022314DA5EE331C88E7B6CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC6FC401781776CD79CA196F /* libPods-YCHManage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30402EE25660FFC00662EA4 /* OverviewPage */ = {
+			isa = PBXGroup;
+			children = (
+				A3040329256B529700662EA4 /* Model */,
+				A30402EF25660FFC00662EA4 /* Cell */,
+				A30402F025660FFC00662EA4 /* View */,
+				A30403002566500600662EA4 /* YCHOverviewViewController.h */,
+				A30403012566500600662EA4 /* YCHOverviewViewController.m */,
+			);
+			path = OverviewPage;
+			sourceTree = "<group>";
+		};
+		A30402EF25660FFC00662EA4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A30402F12566387B00662EA4 /* YCHOverviewTableViewCell.h */,
+				A30402F22566387B00662EA4 /* YCHOverviewTableViewCell.m */,
+				A304030625665CBF00662EA4 /* YCHEachVaillageTableViewCell.h */,
+				A304030725665CBF00662EA4 /* YCHEachVaillageTableViewCell.m */,
+				A30403192567638300662EA4 /* YCHScrollBannerTableViewCell.h */,
+				A304031A2567638300662EA4 /* YCHScrollBannerTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A30402F025660FFC00662EA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A30402FA2566499D00662EA4 /* YCHOverviewTableView.h */,
+				A30402FB2566499D00662EA4 /* YCHOverviewTableView.m */,
+				A304031F2567886400662EA4 /* YCHScrollBannerView.h */,
+				A30403202567886400662EA4 /* YCHScrollBannerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3040329256B529700662EA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A304032A256B52E100662EA4 /* YCHOverviewPageModel.h */,
+				A304032B256B52E100662EA4 /* YCHOverviewPageModel.m */,
+				A3040330256B543A00662EA4 /* YCHRecentNotificationModel.h */,
+				A3040331256B543A00662EA4 /* YCHRecentNotificationModel.m */,
+				A3040339256B801700662EA4 /* YCHEachVillageModel.h */,
+				A304033A256B801700662EA4 /* YCHEachVillageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A325ABA52509D45E00AA85E8 /* SendAndRecive */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC19251B1F1900AA85E8 /* Add */,
+				A325AC0A251AE84A00AA85E8 /* MessageDetails */,
+				A325ABA62509D45E00AA85E8 /* Cell */,
+				A325ABA72509D45E00AA85E8 /* View */,
+				A325ABA82509D49000AA85E8 /* YCHSendAndReviceViewController.h */,
+				A325ABA92509D49000AA85E8 /* YCHSendAndReviceViewController.m */,
+			);
+			path = SendAndRecive;
+			sourceTree = "<group>";
+		};
+		A325ABA62509D45E00AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABFE25199F8300AA85E8 /* YCHSendAndReciveTableViewCell.h */,
+				A325ABFF25199F8300AA85E8 /* YCHSendAndReciveTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABA72509D45E00AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC012519CD1400AA85E8 /* YCHAssistExamineTableView.h */,
+				A325AC022519CD1400AA85E8 /* YCHAssistExamineTableView.m */,
+				A325AC042519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.h */,
+				A325AC052519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.m */,
+				A325AC07251ADC6100AA85E8 /* YCHResultNotiTableView.h */,
+				A325AC08251ADC6100AA85E8 /* YCHResultNotiTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325ABAB250B197300AA85E8 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABAC250B197300AA85E8 /* Cell */,
+				A325ABAD250B197300AA85E8 /* View */,
+				A325ABAE250B199700AA85E8 /* YCHMyViewController.h */,
+				A325ABAF250B199700AA85E8 /* YCHMyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		A325ABAC250B197300AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A32202232540199600B37B4E /* UMSMyHomeUserInfoCell.h */,
+				A32202242540199600B37B4E /* UMSMyHomeUserInfoCell.m */,
+				A322022925401F6100B37B4E /* YCHLogoutTableViewCell.h */,
+				A322022A25401F6100B37B4E /* YCHLogoutTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABAD250B197300AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A322022625401A9D00B37B4E /* YCHMyTableView.h */,
+				A322022725401A9D00B37B4E /* YCHMyTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325ABB3250F086100AA85E8 /* BasicInformation */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABB4250F086100AA85E8 /* Cell */,
+				A325ABB5250F086100AA85E8 /* View */,
+				A325ABB6250F08B600AA85E8 /* YCHBasicInformationViewController.h */,
+				A325ABB7250F08B600AA85E8 /* YCHBasicInformationViewController.m */,
+			);
+			path = BasicInformation;
+			sourceTree = "<group>";
+		};
+		A325ABB4250F086100AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABBD250F395800AA85E8 /* YCHBasicInformationTableViewCell.h */,
+				A325ABBE250F395800AA85E8 /* YCHBasicInformationTableViewCell.m */,
+				A325ABC9250F543600AA85E8 /* YCHPictureTableViewCell.h */,
+				A325ABCA250F543600AA85E8 /* YCHPictureTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABB5250F086100AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABC0250F3F7200AA85E8 /* YCHBasicInformationTableView.h */,
+				A325ABC1250F3F7200AA85E8 /* YCHBasicInformationTableView.m */,
+				A325ABCC25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.h */,
+				A325ABCD25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325ABB9250F0F4400AA85E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABBA250F0F7D00AA85E8 /* YCHBasicInformationModel.h */,
+				A325ABBB250F0F7E00AA85E8 /* YCHBasicInformationModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A325ABCF25108BEA00AA85E8 /* CheckRecord */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABF425187B3100AA85E8 /* CorrectAndDetails */,
+				A325ABD025108BEA00AA85E8 /* Cell */,
+				A325ABD125108BEA00AA85E8 /* Model */,
+				A325ABD225108BEA00AA85E8 /* View */,
+				A325ABD325108C9A00AA85E8 /* YCHCheckRecordViewController.h */,
+				A325ABD425108C9A00AA85E8 /* YCHCheckRecordViewController.m */,
+			);
+			path = CheckRecord;
+			sourceTree = "<group>";
+		};
+		A325ABD025108BEA00AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABD6251096E200AA85E8 /* YCHcheckRecordTableViewCell.h */,
+				A325ABD7251096E200AA85E8 /* YCHcheckRecordTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABD125108BEA00AA85E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A325ABD225108BEA00AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABD92510A3CE00AA85E8 /* YCHCheckRecordTableView.h */,
+				A325ABDA2510A3CE00AA85E8 /* YCHCheckRecordTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325ABDF2511ED5200AA85E8 /* DeductItem */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABDC2511ECF200AA85E8 /* YCHExamineDeductItemViewController.h */,
+				A325ABDD2511ECF200AA85E8 /* YCHExamineDeductItemViewController.m */,
+				A325ABE02511ED5200AA85E8 /* Cell */,
+				A325ABE12511ED5200AA85E8 /* Model */,
+				A325ABE22511ED5200AA85E8 /* View */,
+			);
+			path = DeductItem;
+			sourceTree = "<group>";
+		};
+		A325ABE02511ED5200AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABE62511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.h */,
+				A325ABE72511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABE12511ED5200AA85E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A325ABE22511ED5200AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABE32511EF0700AA85E8 /* YCHExamineDeductItemTableView.h */,
+				A325ABE42511EF0700AA85E8 /* YCHExamineDeductItemTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325ABE9251458C800AA85E8 /* FiltrateTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABEA251458C800AA85E8 /* Cell */,
+				A325ABEB2514590800AA85E8 /* FilTrateTableView.h */,
+				A325ABEC2514590800AA85E8 /* FilTrateTableView.m */,
+				A325ABF125149E4900AA85E8 /* FiltrateFooterView.h */,
+				A325ABF225149E4900AA85E8 /* FiltrateFooterView.m */,
+			);
+			path = FiltrateTableView;
+			sourceTree = "<group>";
+		};
+		A325ABEA251458C800AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABEE25147B6200AA85E8 /* FilTrateDateTableViewCell.h */,
+				A325ABEF25147B6200AA85E8 /* FilTrateDateTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABF425187B3100AA85E8 /* CorrectAndDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABF525187B3100AA85E8 /* Cell */,
+				A325ABF625187B3100AA85E8 /* Model */,
+				A325ABF725187B3100AA85E8 /* View */,
+				A325ABF825187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.h */,
+				A325ABF925187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.m */,
+				A39EC4732521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.h */,
+				A39EC4742521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.m */,
+			);
+			path = CorrectAndDetails;
+			sourceTree = "<group>";
+		};
+		A325ABF525187B3100AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325ABF625187B3100AA85E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A325ABF725187B3100AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABFB25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.h */,
+				A325ABFC25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.m */,
+				A39EC4702521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.h */,
+				A39EC4712521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325AC0A251AE84A00AA85E8 /* MessageDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC0B251AE84B00AA85E8 /* Cell */,
+				A325AC0C251AE84B00AA85E8 /* View */,
+				A325AC0D251AE97A00AA85E8 /* YCHMessageDetailsViewController.h */,
+				A325AC0E251AE97A00AA85E8 /* YCHMessageDetailsViewController.m */,
+				A39EC4792522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.h */,
+				A39EC47A2522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.m */,
+			);
+			path = MessageDetails;
+			sourceTree = "<group>";
+		};
+		A325AC0B251AE84B00AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC13251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.h */,
+				A325AC14251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.m */,
+				A325AC16251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.h */,
+				A325AC17251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325AC0C251AE84B00AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC10251AEBDD00AA85E8 /* YCHMessageDetailsTableView.h */,
+				A325AC11251AEBDD00AA85E8 /* YCHMessageDetailsTableView.m */,
+				A39EC4762522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.h */,
+				A39EC4772522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325AC19251B1F1900AA85E8 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC1A251B1F1900AA85E8 /* AddAssistExamine */,
+				A325AC1D251B1F1900AA85E8 /* AddResultNot */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		A325AC1A251B1F1900AA85E8 /* AddAssistExamine */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC1B251B1F1900AA85E8 /* Cell */,
+				A325AC1C251B1F1900AA85E8 /* View */,
+				A325AC23251B206600AA85E8 /* YCHAddAssistExamineViewController.h */,
+				A325AC24251B206600AA85E8 /* YCHAddAssistExamineViewController.m */,
+			);
+			path = AddAssistExamine;
+			sourceTree = "<group>";
+		};
+		A325AC1B251B1F1900AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325AC1C251B1F1900AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC29251B217000AA85E8 /* YCHAddAssistExamineTableView.h */,
+				A325AC2A251B217000AA85E8 /* YCHAddAssistExamineTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A325AC1D251B1F1900AA85E8 /* AddResultNot */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC1E251B1F1900AA85E8 /* Cell */,
+				A325AC1F251B1F1900AA85E8 /* View */,
+				A325AC20251B1FA500AA85E8 /* YCHAddResultNotiViewController.h */,
+				A325AC21251B1FA500AA85E8 /* YCHAddResultNotiViewController.m */,
+			);
+			path = AddResultNot;
+			sourceTree = "<group>";
+		};
+		A325AC1E251B1F1900AA85E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC2C251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.h */,
+				A325AC2D251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.m */,
+				A325AC2F251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.h */,
+				A325AC30251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.m */,
+				A325AC32251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.h */,
+				A325AC33251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A325AC1F251B1F1900AA85E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A325AC26251B20FE00AA85E8 /* YCHAddResultNotiTableView.h */,
+				A325AC27251B20FE00AA85E8 /* YCHAddResultNotiTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0A624A9B36E002B7226 /* UMSImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0A724A9B36E002B7226 /* UMSImagePicker.h */,
+				A327E0A824A9B36E002B7226 /* UMSImagePicker.m */,
+			);
+			path = UMSImagePicker;
+			sourceTree = "<group>";
+		};
+		A327E0AD24A9CE02002B7226 /* BaseTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0AE24A9CE15002B7226 /* YCHBaseTableViewCell.h */,
+				A327E0AF24A9CE15002B7226 /* YCHBaseTableViewCell.m */,
+			);
+			path = BaseTableCell;
+			sourceTree = "<group>";
+		};
+		A327E0B424AAE064002B7226 /* deductScore */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0B524AAE064002B7226 /* Cell */,
+				A327E0B624AAE064002B7226 /* View */,
+				A327E0BD24AB10FD002B7226 /* YCHDeductScoreViewController.h */,
+				A327E0BE24AB10FD002B7226 /* YCHDeductScoreViewController.m */,
+			);
+			path = deductScore;
+			sourceTree = "<group>";
+		};
+		A327E0B524AAE064002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0B724AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.h */,
+				A327E0B824AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0B624AAE064002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0BA24AAE1AF002B7226 /* YCHDeductScoreCollectionView.h */,
+				A327E0BB24AAE1AF002B7226 /* YCHDeductScoreCollectionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0C024C57E0A002B7226 /* Office */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0CA24C6765C002B7226 /* receiveAndDispatchDetails */,
+				A327E0C124C57E0A002B7226 /* receiveAndDispatch */,
+			);
+			path = Office;
+			sourceTree = "<group>";
+		};
+		A327E0C124C57E0A002B7226 /* receiveAndDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0E224C980C4002B7226 /* ReceiveDepartment */,
+				A327E0D624C929FE002B7226 /* RequsetAssistCheck */,
+				A327E0F024D10F8D002B7226 /* ResultDispatch */,
+				A327E0FC24D14B92002B7226 /* DeductItem */,
+				A327E0C224C57E0A002B7226 /* Cell */,
+				A327E0C324C57E0A002B7226 /* View */,
+			);
+			path = receiveAndDispatch;
+			sourceTree = "<group>";
+		};
+		A327E0C224C57E0A002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0C424C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.h */,
+				A327E0C524C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0C324C57E0A002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0C724C58289002B7226 /* YCHReceiveAndDispatchTableView.h */,
+				A327E0C824C58289002B7226 /* YCHReceiveAndDispatchTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0CA24C6765C002B7226 /* receiveAndDispatchDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0CB24C6765C002B7226 /* Cell */,
+				A327E0CC24C6765C002B7226 /* View */,
+				A327E0D024C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.h */,
+				A327E0D124C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.m */,
+			);
+			path = receiveAndDispatchDetails;
+			sourceTree = "<group>";
+		};
+		A327E0CB24C6765C002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0D324C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.h */,
+				A327E0D424C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0CC24C6765C002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0CD24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.h */,
+				A327E0CE24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0D624C929FE002B7226 /* RequsetAssistCheck */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0D724C929FE002B7226 /* Cell */,
+				A327E0D824C929FE002B7226 /* View */,
+				A327E0DF24C939DA002B7226 /* YCHRequestAssistCheckViewController.h */,
+				A327E0E024C939DA002B7226 /* YCHRequestAssistCheckViewController.m */,
+			);
+			path = RequsetAssistCheck;
+			sourceTree = "<group>";
+		};
+		A327E0D724C929FE002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0DC24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.h */,
+				A327E0DD24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0D824C929FE002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0D924C92F62002B7226 /* YCHRequestAssistCheckTableView.h */,
+				A327E0DA24C92F62002B7226 /* YCHRequestAssistCheckTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0E224C980C4002B7226 /* ReceiveDepartment */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0E324C980C4002B7226 /* Cell */,
+				A327E0E424C980C4002B7226 /* View */,
+				A327E0ED24C98FBD002B7226 /* YCHDepartmentSelectViewController.h */,
+				A327E0EE24C98FBD002B7226 /* YCHDepartmentSelectViewController.m */,
+			);
+			path = ReceiveDepartment;
+			sourceTree = "<group>";
+		};
+		A327E0E324C980C4002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0E824C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.h */,
+				A327E0E924C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0E424C980C4002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0E524C9817C002B7226 /* YCHReceiveDepartmentTableView.h */,
+				A327E0E624C9817C002B7226 /* YCHReceiveDepartmentTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0F024D10F8D002B7226 /* ResultDispatch */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0F124D10F8D002B7226 /* Cell */,
+				A327E0F224D10F8D002B7226 /* View */,
+				A327E0F324D10FAD002B7226 /* YCHResultDispatchViewController.h */,
+				A327E0F424D10FAD002B7226 /* YCHResultDispatchViewController.m */,
+			);
+			path = ResultDispatch;
+			sourceTree = "<group>";
+		};
+		A327E0F124D10F8D002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0F924D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.h */,
+				A327E0FA24D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0F224D10F8D002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0F624D11187002B7226 /* YCHResultDisaptchTableView.h */,
+				A327E0F724D11187002B7226 /* YCHResultDisaptchTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A327E0FC24D14B92002B7226 /* DeductItem */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0FD24D14B92002B7226 /* Cell */,
+				A327E0FE24D14B92002B7226 /* View */,
+				A327E0FF24D14BAF002B7226 /* YCHDeductItemViewController.h */,
+				A327E10024D14BAF002B7226 /* YCHDeductItemViewController.m */,
+			);
+			path = DeductItem;
+			sourceTree = "<group>";
+		};
+		A327E0FD24D14B92002B7226 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E10524D14E05002B7226 /* YCHDeductItemTableViewCell.h */,
+				A327E10624D14E05002B7226 /* YCHDeductItemTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A327E0FE24D14B92002B7226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E10224D14D46002B7226 /* YCHDeductItemTableView.h */,
+				A327E10324D14D46002B7226 /* YCHDeductItemTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A34241C324A88C6300A38F07 /* Examine */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABDF2511ED5200AA85E8 /* DeductItem */,
+				A327E0B424AAE064002B7226 /* deductScore */,
+				A34241C824A88CAC00A38F07 /* Cell */,
+				A34241C724A88CAC00A38F07 /* View */,
+				A34241C424A88C8A00A38F07 /* YCHExamineViewController.h */,
+				A34241C524A88C8A00A38F07 /* YCHExamineViewController.m */,
+			);
+			path = Examine;
+			sourceTree = "<group>";
+		};
+		A34241C724A88CAC00A38F07 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0AA24A9CBAF002B7226 /* YCHExamineTableView.h */,
+				A327E0AB24A9CBAF002B7226 /* YCHExamineTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A34241C824A88CAC00A38F07 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A327E0B124A9D3BF002B7226 /* YCHExamineTableViewCell.h */,
+				A327E0B224A9D3BF002B7226 /* YCHExamineTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A38EDB32248DDA680075D5F8 = {
+			isa = PBXGroup;
+			children = (
+				A38EDB3D248DDA680075D5F8 /* YCHManage */,
+				A38EDB56248DDA6A0075D5F8 /* YCHManageTests */,
+				A38EDB61248DDA6A0075D5F8 /* YCHManageUITests */,
+				A38EDB3C248DDA680075D5F8 /* Products */,
+				B5EB147D0D8B212E2B43D144 /* Pods */,
+				022314DA5EE331C88E7B6CBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A38EDB3C248DDA680075D5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB3B248DDA680075D5F8 /* YCHManage.app */,
+				A38EDB53248DDA6A0075D5F8 /* YCHManageTests.xctest */,
+				A38EDB5E248DDA6A0075D5F8 /* YCHManageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38EDB3D248DDA680075D5F8 /* YCHManage */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBA5248F54DE0075D5F8 /* SignUpAndLogin */,
+				A38EDBA9248F57E60075D5F8 /* User */,
+				A38EDBB2248F6AC70075D5F8 /* BIZ */,
+				A38EDB3E248DDA680075D5F8 /* AppDelegate.h */,
+				A38EDB3F248DDA680075D5F8 /* AppDelegate.m */,
+				A38EDB41248DDA680075D5F8 /* ViewController.h */,
+				A38EDB42248DDA680075D5F8 /* ViewController.m */,
+				A38EDB44248DDA680075D5F8 /* Main.storyboard */,
+				A38EDB47248DDA6A0075D5F8 /* Assets.xcassets */,
+				A38EDB49248DDA6A0075D5F8 /* LaunchScreen.storyboard */,
+				A38EDB4C248DDA6A0075D5F8 /* Info.plist */,
+				A38EDB4D248DDA6A0075D5F8 /* main.m */,
+				A38EDB70248DE0CA0075D5F8 /* Utility */,
+				A38EDB85248DE8380075D5F8 /* YCHManage-Prefix.pch */,
+			);
+			path = YCHManage;
+			sourceTree = "<group>";
+		};
+		A38EDB56248DDA6A0075D5F8 /* YCHManageTests */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB57248DDA6A0075D5F8 /* YCHManageTests.m */,
+				A38EDB59248DDA6A0075D5F8 /* Info.plist */,
+			);
+			path = YCHManageTests;
+			sourceTree = "<group>";
+		};
+		A38EDB61248DDA6A0075D5F8 /* YCHManageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB62248DDA6A0075D5F8 /* YCHManageUITests.m */,
+				A38EDB64248DDA6A0075D5F8 /* Info.plist */,
+			);
+			path = YCHManageUITests;
+			sourceTree = "<group>";
+		};
+		A38EDB70248DE0CA0075D5F8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB91248E23220075D5F8 /* NetWork */,
+				A38EDB8D248E1BF40075D5F8 /* Toast */,
+				A38EDB86248E10AF0075D5F8 /* LodingView */,
+				A38EDB73248DE3DE0075D5F8 /* Device */,
+				A38EDB74248DE3DF0075D5F8 /* Font */,
+				A38EDB72248DE2910075D5F8 /* YCHManage-UI-Constant.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A38EDB73248DE3DE0075D5F8 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB81248DE60C0075D5F8 /* YCHManageDevice.h */,
+				A38EDB82248DE60C0075D5F8 /* YCHManageDevice.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		A38EDB74248DE3DF0075D5F8 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB78248DE4500075D5F8 /* UIFont+Additions.h */,
+				A38EDB79248DE4500075D5F8 /* UIFont+Additions.m */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A38EDB86248E10AF0075D5F8 /* LodingView */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB8A248E13BB0075D5F8 /* YCHManageLodingActivity.h */,
+				A38EDB8B248E13BB0075D5F8 /* YCHManageLodingActivity.m */,
+			);
+			path = LodingView;
+			sourceTree = "<group>";
+		};
+		A38EDB8D248E1BF40075D5F8 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB8E248E1C0F0075D5F8 /* YCHManagerToast.h */,
+				A38EDB8F248E1C0F0075D5F8 /* YCHManagerToast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		A38EDB91248E23220075D5F8 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB98248F317D0075D5F8 /* Cache */,
+				A38EDB95248F2EA00075D5F8 /* ZBNetworking.h */,
+				A38EDB96248F2EA00075D5F8 /* ZBNetworking.m */,
+				A325AC38251D82D300AA85E8 /* YCHNetBiz.h */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		A38EDB98248F317D0075D5F8 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDB9F248F318C0075D5F8 /* ZBCacheManager.h */,
+				A38EDB9A248F318A0075D5F8 /* ZBCacheManager.m */,
+				A38EDB9E248F318C0075D5F8 /* ZBDiskCache.h */,
+				A38EDB9C248F318B0075D5F8 /* ZBDiskCache.m */,
+				A38EDB9B248F318A0075D5F8 /* ZBLRUManager.h */,
+				A38EDB9D248F318B0075D5F8 /* ZBLRUManager.m */,
+				A38EDBA0248F318D0075D5F8 /* ZBMemoryCache.h */,
+				A38EDB99248F31890075D5F8 /* ZBMemoryCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		A38EDBA5248F54DE0075D5F8 /* SignUpAndLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBA6248F556B0075D5F8 /* ForgetPassword */,
+				A38EDBA7248F556B0075D5F8 /* Login */,
+				A38EDBA8248F556B0075D5F8 /* SignUp */,
+			);
+			path = SignUpAndLogin;
+			sourceTree = "<group>";
+		};
+		A38EDBA6248F556B0075D5F8 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		A38EDBA7248F556B0075D5F8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBC524907D300075D5F8 /* YCHLoginView.h */,
+				A38EDBC624907D300075D5F8 /* YCHLoginView.m */,
+				A38EDBCE249089820075D5F8 /* YCHBaseLoginView.h */,
+				A38EDBCF249089820075D5F8 /* YCHBaseLoginView.m */,
+				A38EDBD424908A6B0075D5F8 /* YCHLoginPasswordView.h */,
+				A38EDBD524908A6B0075D5F8 /* YCHLoginPasswordView.m */,
+				A38EDBDB2490AB870075D5F8 /* YCHLoginViewController.h */,
+				A38EDBDC2490AB870075D5F8 /* YCHLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A38EDBA8248F556B0075D5F8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBFD2491F7E30075D5F8 /* YCHSignUpTableView.h */,
+				A38EDBFE2491F7E30075D5F8 /* YCHSignUpTableView.m */,
+				A38EDC06249203600075D5F8 /* YCHSignUpViewController.h */,
+				A38EDC07249203600075D5F8 /* YCHSignUpViewController.m */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A38EDBA9248F57E60075D5F8 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBAD248F58CA0075D5F8 /* YCHManageUserCenter.h */,
+				A38EDBAE248F58CA0075D5F8 /* YCHManageUserCenter.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		A38EDBB2248F6AC70075D5F8 /* BIZ */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC09249897140075D5F8 /* YCH */,
+				A38EDBB7248F6C680075D5F8 /* Custom */,
+				A38EDBBC248F74720075D5F8 /* Resources */,
+				A38EDBB3248F6AC70075D5F8 /* Manager */,
+			);
+			path = BIZ;
+			sourceTree = "<group>";
+		};
+		A38EDBB3248F6AC70075D5F8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBB4248F6B4F0075D5F8 /* YCHManageViewControllerManager.h */,
+				A38EDBB5248F6B4F0075D5F8 /* YCHManageViewControllerManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		A38EDBB7248F6C680075D5F8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABE9251458C800AA85E8 /* FiltrateTableView */,
+				A327E0AD24A9CE02002B7226 /* BaseTableCell */,
+				A327E0A624A9B36E002B7226 /* UMSImagePicker */,
+				A38EDC2D249C92590075D5F8 /* DatePickerView */,
+				A38EDC002491FEC80075D5F8 /* TableViewFootView */,
+				A38EDBF92491DC180075D5F8 /* KeyValueCell */,
+				A38EDBF22491D48A0075D5F8 /* Timer */,
+				A38EDBEE2491D3370075D5F8 /* GainVerifyView */,
+				A38EDBEA2490CE7F0075D5F8 /* NSStringCategory */,
+				A38EDBE62490AFBC0075D5F8 /* UIImageCategory */,
+				A38EDBE22490ADDF0075D5F8 /* ColorCaregory */,
+				A38EDBDE2490AD680075D5F8 /* NavigationBarCategory */,
+				A38EDBD72490AB000075D5F8 /* RootViewController */,
+				A38EDBCA249082480075D5F8 /* LoginSegment */,
+				A38EDBBE248F7D5E0075D5F8 /* DeformationButton */,
+				A38EDBB8248F6CBB0075D5F8 /* CustomController */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A38EDBB8248F6CBB0075D5F8 /* CustomController */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBB9248F6D410075D5F8 /* YCHNavigationController.h */,
+				A38EDBBA248F6D410075D5F8 /* YCHNavigationController.m */,
+				A325ABA22509C6AD00AA85E8 /* YCHTabBarController.h */,
+				A325ABA32509C6AD00AA85E8 /* YCHTabBarController.m */,
+				A322022C254112E300B37B4E /* UIViewController+barAndNaviHeight.h */,
+				A322022D254112E300B37B4E /* UIViewController+barAndNaviHeight.m */,
+			);
+			path = CustomController;
+			sourceTree = "<group>";
+		};
+		A38EDBBC248F74720075D5F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBBD248F74720075D5F8 /* ImageResources */,
+			);
+			name = Resources;
+			path = YCHManage/BIZ/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A38EDBBD248F74720075D5F8 /* ImageResources */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBC82490803A0075D5F8 /* LoginView.xcassets */,
+				A38EDC04249202300075D5F8 /* common.xcassets */,
+				A38EDC20249C4B7A0075D5F8 /* HomePage.xcassets */,
+				A327E0EB24C988A5002B7226 /* ReceiceAndDispatch.xcassets */,
+				A325ABB1250B42B600AA85E8 /* TabBar.xcassets */,
+			);
+			path = ImageResources;
+			sourceTree = "<group>";
+		};
+		A38EDBBE248F7D5E0075D5F8 /* DeformationButton */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBBF248F7D690075D5F8 /* UMSDeformationButton.h */,
+				A38EDBC1248F7D6A0075D5F8 /* UMSDeformationButton.m */,
+				A38EDBC0248F7D6A0075D5F8 /* UMSSpinnerView.h */,
+				A38EDBC2248F7D6A0075D5F8 /* UMSSpinnerView.m */,
+			);
+			path = DeformationButton;
+			sourceTree = "<group>";
+		};
+		A38EDBCA249082480075D5F8 /* LoginSegment */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBCB249082570075D5F8 /* YCHLoginSegmentedControl.h */,
+				A38EDBCC249082570075D5F8 /* YCHLoginSegmentedControl.m */,
+			);
+			path = LoginSegment;
+			sourceTree = "<group>";
+		};
+		A38EDBD72490AB000075D5F8 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBD82490AB1B0075D5F8 /* YCHRootViewController.h */,
+				A38EDBD92490AB1B0075D5F8 /* YCHRootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		A38EDBDE2490AD680075D5F8 /* NavigationBarCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBDF2490AD900075D5F8 /* UINavigationBar+Additions.h */,
+				A38EDBE02490AD900075D5F8 /* UINavigationBar+Additions.m */,
+			);
+			path = NavigationBarCategory;
+			sourceTree = "<group>";
+		};
+		A38EDBE22490ADDF0075D5F8 /* ColorCaregory */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBE32490AE0E0075D5F8 /* UIColor+Additions.h */,
+				A38EDBE42490AE0F0075D5F8 /* UIColor+Additions.m */,
+			);
+			path = ColorCaregory;
+			sourceTree = "<group>";
+		};
+		A38EDBE62490AFBC0075D5F8 /* UIImageCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBE82490AFCB0075D5F8 /* UIImage+Additions.h */,
+				A38EDBE72490AFCB0075D5F8 /* UIImage+Additions.m */,
+			);
+			path = UIImageCategory;
+			sourceTree = "<group>";
+		};
+		A38EDBEA2490CE7F0075D5F8 /* NSStringCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBEB2490CEF20075D5F8 /* NSString+additions.h */,
+				A38EDBEC2490CEF20075D5F8 /* NSString+additions.m */,
+				A39EC46D25202A80003D5BA0 /* NSString+MD5.h */,
+				A39EC46E25202A80003D5BA0 /* NSString+MD5.m */,
+			);
+			path = NSStringCategory;
+			sourceTree = "<group>";
+		};
+		A38EDBEE2491D3370075D5F8 /* GainVerifyView */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBF02491D3610075D5F8 /* UMSGainVerifyView.h */,
+				A38EDBEF2491D3610075D5F8 /* UMSGainVerifyView.m */,
+			);
+			path = GainVerifyView;
+			sourceTree = "<group>";
+		};
+		A38EDBF22491D48A0075D5F8 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBF32491D4950075D5F8 /* UMSTimer.h */,
+				A38EDBF42491D4950075D5F8 /* UMSTimer.m */,
+				A38EDBF52491D4960075D5F8 /* UMSTimerManager.h */,
+				A38EDBF62491D4960075D5F8 /* UMSTimerManager.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		A38EDBF92491DC180075D5F8 /* KeyValueCell */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDBFA2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.h */,
+				A38EDBFB2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.m */,
+			);
+			path = KeyValueCell;
+			sourceTree = "<group>";
+		};
+		A38EDC002491FEC80075D5F8 /* TableViewFootView */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC012491FEF80075D5F8 /* YCHTableViewFooterView.h */,
+				A38EDC022491FEF80075D5F8 /* YCHTableViewFooterView.m */,
+			);
+			path = TableViewFootView;
+			sourceTree = "<group>";
+		};
+		A38EDC09249897140075D5F8 /* YCH */ = {
+			isa = PBXGroup;
+			children = (
+				A30402EE25660FFC00662EA4 /* OverviewPage */,
+				A327E0C024C57E0A002B7226 /* Office */,
+				A38EDC1C249B3B4C0075D5F8 /* HomePage */,
+				A325ABA52509D45E00AA85E8 /* SendAndRecive */,
+				A325ABAB250B197300AA85E8 /* My */,
+				A34241C324A88C6300A38F07 /* Examine */,
+				A38EDC4524A1F6700075D5F8 /* HomePageDetail */,
+				A38EDC0A249897BE0075D5F8 /* YCHScoreQuery */,
+			);
+			path = YCH;
+			sourceTree = "<group>";
+		};
+		A38EDC0A249897BE0075D5F8 /* YCHScoreQuery */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC0B249898760075D5F8 /* Cell */,
+				A38EDC0C249898760075D5F8 /* View */,
+				A38EDC0D2498993D0075D5F8 /* YCHScoreQueryViewController.h */,
+				A38EDC0E2498993D0075D5F8 /* YCHScoreQueryViewController.m */,
+			);
+			path = YCHScoreQuery;
+			sourceTree = "<group>";
+		};
+		A38EDC0B249898760075D5F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC192499B4B80075D5F8 /* YCHScoreQueryTableViewCell.h */,
+				A38EDC1A2499B4B80075D5F8 /* YCHScoreQueryTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A38EDC0C249898760075D5F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC172498A60E0075D5F8 /* UMSSearchBar.h */,
+				A38EDC162498A60C0075D5F8 /* UMSSearchBar.m */,
+				A38EDC1024989FEF0075D5F8 /* YCHScoreQueryTableView.h */,
+				A38EDC1124989FEF0075D5F8 /* YCHScoreQueryTableView.m */,
+				A38EDC132498A1190075D5F8 /* YCHScoreQueryTopView.h */,
+				A38EDC142498A1190075D5F8 /* YCHScoreQueryTopView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A38EDC1C249B3B4C0075D5F8 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A325ABB3250F086100AA85E8 /* BasicInformation */,
+				A325ABCF25108BEA00AA85E8 /* CheckRecord */,
+				A325ABB9250F0F4400AA85E8 /* Model */,
+				A38EDC23249C4C9E0075D5F8 /* Cell */,
+				A38EDC22249C4C9E0075D5F8 /* View */,
+				A38EDC1D249B3C340075D5F8 /* YCHHomePageViewController.h */,
+				A38EDC1E249B3C340075D5F8 /* YCHHomePageViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A38EDC22249C4C9E0075D5F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC24249C4CCF0075D5F8 /* YCHHomePageEmptyView.h */,
+				A38EDC25249C4CCF0075D5F8 /* YCHHomePageEmptyView.m */,
+				A38EDC2A249C652A0075D5F8 /* YCHHomePageTopFilterView.h */,
+				A38EDC2B249C652A0075D5F8 /* YCHHomePageTopFilterView.m */,
+				A38EDC4224A090430075D5F8 /* YCHHomeTableView.h */,
+				A38EDC4324A090430075D5F8 /* YCHHomeTableView.m */,
+				A3040348256E22A300662EA4 /* YCHHomePageNaviItemTableView.h */,
+				A3040349256E22A300662EA4 /* YCHHomePageNaviItemTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A38EDC23249C4C9E0075D5F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC27249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.h */,
+				A38EDC28249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A38EDC2D249C92590075D5F8 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC3E249CA84D0075D5F8 /* BJDatePicker.h */,
+				A38EDC3D249CA84C0075D5F8 /* BJDatePicker.m */,
+				A38EDC3F249CA84E0075D5F8 /* BJDatePickerView.h */,
+				A38EDC3C249CA84B0075D5F8 /* BJDatePickerView.m */,
+			);
+			path = DatePickerView;
+			sourceTree = "<group>";
+		};
+		A38EDC4524A1F6700075D5F8 /* HomePageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC4A24A1F6F50075D5F8 /* Cell */,
+				A38EDC4924A1F6F50075D5F8 /* View */,
+				A38EDC4624A1F69B0075D5F8 /* YCHHomePageDetailViewController.h */,
+				A38EDC4724A1F69B0075D5F8 /* YCHHomePageDetailViewController.m */,
+			);
+			path = HomePageDetail;
+			sourceTree = "<group>";
+		};
+		A38EDC4924A1F6F50075D5F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC4E24A2E1E30075D5F8 /* YCHHomePageDetailTableView.h */,
+				A38EDC4F24A2E1E30075D5F8 /* YCHHomePageDetailTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A38EDC4A24A1F6F50075D5F8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A38EDC4B24A205200075D5F8 /* YCHHomePageDetailTableViewCell.h */,
+				A38EDC4C24A205200075D5F8 /* YCHHomePageDetailTableViewCell.m */,
+				A34241BC24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.h */,
+				A34241BD24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B5EB147D0D8B212E2B43D144 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F305BB4581C120662FBAE8 /* Pods-YCHManage.debug.xcconfig */,
+				79871A00BF0424A0DD87A0C7 /* Pods-YCHManage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38EDB3A248DDA680075D5F8 /* YCHManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38EDB67248DDA6A0075D5F8 /* Build configuration list for PBXNativeTarget "YCHManage" */;
+			buildPhases = (
+				C5205C931D29F95E6AC72FDA /* [CP] Check Pods Manifest.lock */,
+				A38EDB37248DDA680075D5F8 /* Sources */,
+				A38EDB38248DDA680075D5F8 /* Frameworks */,
+				A38EDB39248DDA680075D5F8 /* Resources */,
+				BB33E0D41CB5F5ECF4FDA344 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YCHManage;
+			productName = YCHManage;
+			productReference = A38EDB3B248DDA680075D5F8 /* YCHManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A38EDB52248DDA6A0075D5F8 /* YCHManageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38EDB6A248DDA6A0075D5F8 /* Build configuration list for PBXNativeTarget "YCHManageTests" */;
+			buildPhases = (
+				A38EDB4F248DDA6A0075D5F8 /* Sources */,
+				A38EDB50248DDA6A0075D5F8 /* Frameworks */,
+				A38EDB51248DDA6A0075D5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38EDB55248DDA6A0075D5F8 /* PBXTargetDependency */,
+			);
+			name = YCHManageTests;
+			productName = YCHManageTests;
+			productReference = A38EDB53248DDA6A0075D5F8 /* YCHManageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A38EDB5D248DDA6A0075D5F8 /* YCHManageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38EDB6D248DDA6A0075D5F8 /* Build configuration list for PBXNativeTarget "YCHManageUITests" */;
+			buildPhases = (
+				A38EDB5A248DDA6A0075D5F8 /* Sources */,
+				A38EDB5B248DDA6A0075D5F8 /* Frameworks */,
+				A38EDB5C248DDA6A0075D5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38EDB60248DDA6A0075D5F8 /* PBXTargetDependency */,
+			);
+			name = YCHManageUITests;
+			productName = YCHManageUITests;
+			productReference = A38EDB5E248DDA6A0075D5F8 /* YCHManageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38EDB33248DDA680075D5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.chinaums.ios.chinaumsonline;
+				TargetAttributes = {
+					A38EDB3A248DDA680075D5F8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A38EDB52248DDA6A0075D5F8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A38EDB3A248DDA680075D5F8;
+					};
+					A38EDB5D248DDA6A0075D5F8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A38EDB3A248DDA680075D5F8;
+					};
+				};
+			};
+			buildConfigurationList = A38EDB36248DDA680075D5F8 /* Build configuration list for PBXProject "YCHManage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38EDB32248DDA680075D5F8;
+			productRefGroup = A38EDB3C248DDA680075D5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38EDB3A248DDA680075D5F8 /* YCHManage */,
+				A38EDB52248DDA6A0075D5F8 /* YCHManageTests */,
+				A38EDB5D248DDA6A0075D5F8 /* YCHManageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38EDB39248DDA680075D5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38EDB4B248DDA6A0075D5F8 /* LaunchScreen.storyboard in Resources */,
+				A38EDB48248DDA6A0075D5F8 /* Assets.xcassets in Resources */,
+				A38EDBC92490803A0075D5F8 /* LoginView.xcassets in Resources */,
+				A38EDC21249C4B7B0075D5F8 /* HomePage.xcassets in Resources */,
+				A38EDB46248DDA680075D5F8 /* Main.storyboard in Resources */,
+				A38EDC05249202300075D5F8 /* common.xcassets in Resources */,
+				A327E0EC24C988A5002B7226 /* ReceiceAndDispatch.xcassets in Resources */,
+				A325ABB2250B42B600AA85E8 /* TabBar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38EDB51248DDA6A0075D5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38EDB5C248DDA6A0075D5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB33E0D41CB5F5ECF4FDA344 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCHManage/Pods-YCHManage-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YCHManage/Pods-YCHManage-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YCHManage/Pods-YCHManage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5205C931D29F95E6AC72FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YCHManage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38EDB37248DDA680075D5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A327E0EA24C981BD002B7226 /* YCHReceiveDepartmentTableViewCell.m in Sources */,
+				A325AC2E251B2C7B00AA85E8 /* YCHAddResultNotiDateTableViewCell.m in Sources */,
+				A327E0DB24C92F62002B7226 /* YCHRequestAssistCheckTableView.m in Sources */,
+				A325ABC2250F3F7200AA85E8 /* YCHBasicInformationTableView.m in Sources */,
+				A38EDB43248DDA680075D5F8 /* ViewController.m in Sources */,
+				A304030825665CBF00662EA4 /* YCHEachVaillageTableViewCell.m in Sources */,
+				A325ABB0250B199700AA85E8 /* YCHMyViewController.m in Sources */,
+				A325AC18251B13A400AA85E8 /* YCHMessageDetailsContentTableViewCell.m in Sources */,
+				A38EDBC724907D300075D5F8 /* YCHLoginView.m in Sources */,
+				A38EDB83248DE60C0075D5F8 /* YCHManageDevice.m in Sources */,
+				A38EDC182498A60E0075D5F8 /* UMSSearchBar.m in Sources */,
+				A38EDBE12490AD900075D5F8 /* UINavigationBar+Additions.m in Sources */,
+				A325ABE52511EF0700AA85E8 /* YCHExamineDeductItemTableView.m in Sources */,
+				A38EDB4E248DDA6A0075D5F8 /* main.m in Sources */,
+				A38EDC4D24A205200075D5F8 /* YCHHomePageDetailTableViewCell.m in Sources */,
+				A38EDBE52490AE0F0075D5F8 /* UIColor+Additions.m in Sources */,
+				A38EDC4424A090430075D5F8 /* YCHHomeTableView.m in Sources */,
+				A327E0AC24A9CBAF002B7226 /* YCHExamineTableView.m in Sources */,
+				A325ABA42509C6AD00AA85E8 /* YCHTabBarController.m in Sources */,
+				A327E0E124C939DA002B7226 /* YCHRequestAssistCheckViewController.m in Sources */,
+				A304034A256E22A300662EA4 /* YCHHomePageNaviItemTableView.m in Sources */,
+				A38EDC1F249B3C350075D5F8 /* YCHHomePageViewController.m in Sources */,
+				A322022E254112E300B37B4E /* UIViewController+barAndNaviHeight.m in Sources */,
+				A38EDC29249C535C0075D5F8 /* YCHHomePageManagerTableViewCell.m in Sources */,
+				A327E0C924C58289002B7226 /* YCHReceiveAndDispatchTableView.m in Sources */,
+				A38EDB8C248E13BB0075D5F8 /* YCHManageLodingActivity.m in Sources */,
+				A38EDB7A248DE4500075D5F8 /* UIFont+Additions.m in Sources */,
+				A38EDC1224989FEF0075D5F8 /* YCHScoreQueryTableView.m in Sources */,
+				A325AC34251C2F8F00AA85E8 /* YCHAddResultNotiTextViewTableViewCell.m in Sources */,
+				A327E0CF24C67695002B7226 /* YCHReceiveAndDispatchDetailsTableView.m in Sources */,
+				A327E0D524C6842A002B7226 /* YCHReceiveDetailsTextViewTableViewCell.m in Sources */,
+				A325ABD525108C9A00AA85E8 /* YCHCheckRecordViewController.m in Sources */,
+				A327E0B024A9CE15002B7226 /* YCHBaseTableViewCell.m in Sources */,
+				A327E0FB24D11FB2002B7226 /* YCHDataRangeSelectTableViewCell.m in Sources */,
+				A327E0C624C57ECD002B7226 /* YCHReceiveAndDispatchTableViewCell.m in Sources */,
+				A38EDBAF248F58CA0075D5F8 /* YCHManageUserCenter.m in Sources */,
+				A325AC0F251AE97A00AA85E8 /* YCHMessageDetailsViewController.m in Sources */,
+				A38EDBB6248F6B4F0075D5F8 /* YCHManageViewControllerManager.m in Sources */,
+				A325AC28251B20FE00AA85E8 /* YCHAddResultNotiTableView.m in Sources */,
+				A34241BE24A86ABC00A38F07 /* YCHHomePageExamineTableViewCell.m in Sources */,
+				A39EC4752521CF54003D5BA0 /* YCHCheckRecordDetailsViewController.m in Sources */,
+				A325ABCE25105ABA00AA85E8 /* YCHBasicInfoScalePictureView.m in Sources */,
+				A325ABFD25188BC400AA85E8 /* YCHCorrectAndDetailsTableVIew.m in Sources */,
+				A38EDB97248F2EA00075D5F8 /* ZBNetworking.m in Sources */,
+				A327E10724D14E05002B7226 /* YCHDeductItemTableViewCell.m in Sources */,
+				A38EDBA3248F318D0075D5F8 /* ZBDiskCache.m in Sources */,
+				A304031B2567638300662EA4 /* YCHScrollBannerTableViewCell.m in Sources */,
+				A327E0BF24AB10FD002B7226 /* YCHDeductScoreViewController.m in Sources */,
+				A38EDC26249C4CCF0075D5F8 /* YCHHomePageEmptyView.m in Sources */,
+				A325ABBC250F0F7E00AA85E8 /* YCHBasicInformationModel.m in Sources */,
+				A325ABFA25187B6E00AA85E8 /* YCHCorrectAndDetailsViewController.m in Sources */,
+				A38EDBFF2491F7E30075D5F8 /* YCHSignUpTableView.m in Sources */,
+				A325ABE82511F76500AA85E8 /* YCHExamineDeductItemTableViewCell.m in Sources */,
+				A325ABCB250F543600AA85E8 /* YCHPictureTableViewCell.m in Sources */,
+				A325ABF025147B6200AA85E8 /* FilTrateDateTableViewCell.m in Sources */,
+				A38EDBED2490CEF20075D5F8 /* NSString+additions.m in Sources */,
+				A39EC4782522FE20003D5BA0 /* YCHAssistExamineDetailsTableView.m in Sources */,
+				A32202252540199600B37B4E /* UMSMyHomeUserInfoCell.m in Sources */,
+				A38EDBA4248F318D0075D5F8 /* ZBLRUManager.m in Sources */,
+				A304033B256B801700662EA4 /* YCHEachVillageModel.m in Sources */,
+				A325ABD8251096E200AA85E8 /* YCHcheckRecordTableViewCell.m in Sources */,
+				A325ABBF250F395800AA85E8 /* YCHBasicInformationTableViewCell.m in Sources */,
+				A38EDBC3248F7D6A0075D5F8 /* UMSDeformationButton.m in Sources */,
+				A30402F32566387B00662EA4 /* YCHOverviewTableViewCell.m in Sources */,
+				A38EDBA2248F318D0075D5F8 /* ZBCacheManager.m in Sources */,
+				A38EDC032491FEF80075D5F8 /* YCHTableViewFooterView.m in Sources */,
+				A39EC47B2522FEBD003D5BA0 /* YCHAssistExamineDetailsViewController.m in Sources */,
+				A38EDBE92490AFCB0075D5F8 /* UIImage+Additions.m in Sources */,
+				A34241C624A88C8A00A38F07 /* YCHExamineViewController.m in Sources */,
+				A325ABF325149E4900AA85E8 /* FiltrateFooterView.m in Sources */,
+				A325AC062519DE6E00AA85E8 /* YCHAssistExamineFiltrateView.m in Sources */,
+				A38EDC41249CA84E0075D5F8 /* BJDatePicker.m in Sources */,
+				A38EDBCD249082570075D5F8 /* YCHLoginSegmentedControl.m in Sources */,
+				A327E0F824D11187002B7226 /* YCHResultDisaptchTableView.m in Sources */,
+				A304032C256B52E100662EA4 /* YCHOverviewPageModel.m in Sources */,
+				A327E0F524D10FAE002B7226 /* YCHResultDispatchViewController.m in Sources */,
+				A325ABAA2509D49000AA85E8 /* YCHSendAndReviceViewController.m in Sources */,
+				A38EDBDD2490AB870075D5F8 /* YCHLoginViewController.m in Sources */,
+				A325AC22251B1FA500AA85E8 /* YCHAddResultNotiViewController.m in Sources */,
+				A327E0B924AAE0B9002B7226 /* YCHDeductScoreCollectionViewCell.m in Sources */,
+				A327E0E724C9817C002B7226 /* YCHReceiveDepartmentTableView.m in Sources */,
+				A38EDBA1248F318D0075D5F8 /* ZBMemoryCache.m in Sources */,
+				A38EDBD624908A6B0075D5F8 /* YCHLoginPasswordView.m in Sources */,
+				A38EDC152498A1190075D5F8 /* YCHScoreQueryTopView.m in Sources */,
+				A38EDC2C249C652A0075D5F8 /* YCHHomePageTopFilterView.m in Sources */,
+				A325AC12251AEBDD00AA85E8 /* YCHMessageDetailsTableView.m in Sources */,
+				A38EDBC4248F7D6A0075D5F8 /* UMSSpinnerView.m in Sources */,
+				A30403212567886400662EA4 /* YCHScrollBannerView.m in Sources */,
+				A30403022566500600662EA4 /* YCHOverviewViewController.m in Sources */,
+				A38EDC4824A1F69B0075D5F8 /* YCHHomePageDetailViewController.m in Sources */,
+				A325AC2B251B217000AA85E8 /* YCHAddAssistExamineTableView.m in Sources */,
+				A327E0DE24C934DC002B7226 /* YCHReceiveAndDispatchTextFieldCell.m in Sources */,
+				A325AC25251B206600AA85E8 /* YCHAddAssistExamineViewController.m in Sources */,
+				A38EDC0F2498993D0075D5F8 /* YCHScoreQueryViewController.m in Sources */,
+				A325ABDE2511ECF200AA85E8 /* YCHExamineDeductItemViewController.m in Sources */,
+				A38EDBF72491D4960075D5F8 /* UMSTimer.m in Sources */,
+				A38EDBF12491D3610075D5F8 /* UMSGainVerifyView.m in Sources */,
+				A327E10124D14BAF002B7226 /* YCHDeductItemViewController.m in Sources */,
+				A38EDBD0249089820075D5F8 /* YCHBaseLoginView.m in Sources */,
+				A325AC032519CD1400AA85E8 /* YCHAssistExamineTableView.m in Sources */,
+				A39EC46F25202A80003D5BA0 /* NSString+MD5.m in Sources */,
+				A325AC31251B417D00AA85E8 /* YCHAddResultNotiTextFieldTableViewCell.m in Sources */,
+				A327E0D224C67BED002B7226 /* YCHReceiveAndDispatchDetailsViewController.m in Sources */,
+				A39EC4722521CADB003D5BA0 /* YCHCheckRecordDetailsTableView.m in Sources */,
+				A325AC09251ADC6100AA85E8 /* YCHResultNotiTableView.m in Sources */,
+				A327E0B324A9D3BF002B7226 /* YCHExamineTableViewCell.m in Sources */,
+				A38EDC08249203600075D5F8 /* YCHSignUpViewController.m in Sources */,
+				A38EDC5024A2E1E30075D5F8 /* YCHHomePageDetailTableView.m in Sources */,
+				A38EDC40249CA84E0075D5F8 /* BJDatePickerView.m in Sources */,
+				A38EDBF82491D4960075D5F8 /* UMSTimerManager.m in Sources */,
+				A325AC15251AECA100AA85E8 /* YCHMessageDetailsKeyValueTableViewCell.m in Sources */,
+				A38EDBFC2491DC4C0075D5F8 /* YHCKeyValueTableViewCell.m in Sources */,
+				A30402FC2566499D00662EA4 /* YCHOverviewTableView.m in Sources */,
+				A325ABB8250F08B600AA85E8 /* YCHBasicInformationViewController.m in Sources */,
+				A38EDB40248DDA680075D5F8 /* AppDelegate.m in Sources */,
+				A38EDB90248E1C0F0075D5F8 /* YCHManagerToast.m in Sources */,
+				A325ABED2514590800AA85E8 /* FilTrateTableView.m in Sources */,
+				A325ABDB2510A3CE00AA85E8 /* YCHCheckRecordTableView.m in Sources */,
+				A327E0EF24C98FBD002B7226 /* YCHDepartmentSelectViewController.m in Sources */,
+				A38EDC1B2499B4B80075D5F8 /* YCHScoreQueryTableViewCell.m in Sources */,
+				A327E0A924A9B36F002B7226 /* UMSImagePicker.m in Sources */,
+				A3040332256B543A00662EA4 /* YCHRecentNotificationModel.m in Sources */,
+				A322022825401A9D00B37B4E /* YCHMyTableView.m in Sources */,
+				A38EDBBB248F6D410075D5F8 /* YCHNavigationController.m in Sources */,
+				A325AC0025199F8300AA85E8 /* YCHSendAndReciveTableViewCell.m in Sources */,
+				A322022B25401F6100B37B4E /* YCHLogoutTableViewCell.m in Sources */,
+				A327E0BC24AAE1AF002B7226 /* YCHDeductScoreCollectionView.m in Sources */,
+				A327E10424D14D46002B7226 /* YCHDeductItemTableView.m in Sources */,
+				A38EDBDA2490AB1B0075D5F8 /* YCHRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38EDB4F248DDA6A0075D5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38EDB58248DDA6A0075D5F8 /* YCHManageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38EDB5A248DDA6A0075D5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38EDB63248DDA6A0075D5F8 /* YCHManageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A38EDB55248DDA6A0075D5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38EDB3A248DDA680075D5F8 /* YCHManage */;
+			targetProxy = A38EDB54248DDA6A0075D5F8 /* PBXContainerItemProxy */;
+		};
+		A38EDB60248DDA6A0075D5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A38EDB3A248DDA680075D5F8 /* YCHManage */;
+			targetProxy = A38EDB5F248DDA6A0075D5F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A38EDB44248DDA680075D5F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38EDB45248DDA680075D5F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A38EDB49248DDA6A0075D5F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38EDB4A248DDA6A0075D5F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38EDB65248DDA6A0075D5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A38EDB66248DDA6A0075D5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38EDB68248DDA6A0075D5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F305BB4581C120662FBAE8 /* Pods-YCHManage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8PT4Y277;
+				GCC_PREFIX_HEADER = "/Users/sunny/Desktop/YCHManager/YCHManage-IOS/YCHManage/YCHManage/YCHManage-Prefix.pch";
+				INFOPLIST_FILE = YCHManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szxcszkj.YCHManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A38EDB69248DDA6A0075D5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79871A00BF0424A0DD87A0C7 /* Pods-YCHManage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PA8PT4Y277;
+				GCC_PREFIX_HEADER = "/Users/sunny/Desktop/YCHManager/YCHManage-IOS/YCHManage/YCHManage/YCHManage-Prefix.pch";
+				INFOPLIST_FILE = YCHManage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.szxcszkj.YCHManage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A38EDB6B248DDA6A0075D5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3H3SMBK4G;
+				INFOPLIST_FILE = YCHManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaums.ios.YCHManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCHManage.app/YCHManage";
+			};
+			name = Debug;
+		};
+		A38EDB6C248DDA6A0075D5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3H3SMBK4G;
+				INFOPLIST_FILE = YCHManageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaums.ios.YCHManageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCHManage.app/YCHManage";
+			};
+			name = Release;
+		};
+		A38EDB6E248DDA6A0075D5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3H3SMBK4G;
+				INFOPLIST_FILE = YCHManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaums.ios.YCHManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCHManage;
+			};
+			name = Debug;
+		};
+		A38EDB6F248DDA6A0075D5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3H3SMBK4G;
+				INFOPLIST_FILE = YCHManageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaums.ios.YCHManageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YCHManage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38EDB36248DDA680075D5F8 /* Build configuration list for PBXProject "YCHManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38EDB65248DDA6A0075D5F8 /* Debug */,
+				A38EDB66248DDA6A0075D5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38EDB67248DDA6A0075D5F8 /* Build configuration list for PBXNativeTarget "YCHManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38EDB68248DDA6A0075D5F8 /* Debug */,
+				A38EDB69248DDA6A0075D5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38EDB6A248DDA6A0075D5F8 /* Build configuration list for PBXNativeTarget "YCHManageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38EDB6B248DDA6A0075D5F8 /* Debug */,
+				A38EDB6C248DDA6A0075D5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38EDB6D248DDA6A0075D5F8 /* Build configuration list for PBXNativeTarget "YCHManageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38EDB6E248DDA6A0075D5F8 /* Debug */,
+				A38EDB6F248DDA6A0075D5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38EDB33248DDA680075D5F8 /* Project object */;
+}

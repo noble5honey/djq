@@ -1,0 +1,1 @@
+../../../ECAutoScrollBanner/ECAutoScrollBanner/YYWebImage/Categories/MKAnnotationView+YYWebImage.h
